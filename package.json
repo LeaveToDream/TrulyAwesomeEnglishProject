@@ -1,0 +1,23 @@
+{
+  "name": "truly-awesome-english-project",
+  "version": "1.0.0",
+  "description": "A project for the english course of Telecom Nancy ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeaveToDream/TrulyAwesomeEnglishProject.git"
+  },
+  "author": "John KLV, Syméon Carle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeaveToDream/TrulyAwesomeEnglishProject/issues"
+  },
+  "homepage": "https://github.com/LeaveToDream/TrulyAwesomeEnglishProject#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9"
+  }
+}
