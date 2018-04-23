@@ -2,8 +2,12 @@ from umongo import Document, Instance, fields
 from datetime import datetime
 import pymongo
 import os
+from main import config
 
-db = pymongo.MongoClient(os.environ['MONGO_URL'])
+mongo_uri = f"mongodb://{config['MONGO']['USER']}:{config['MONGO']['PASSWORD']}@{config['MONGO']['HOSTNAME']}:{config['MONGO']['PORT']}/tawep"
+
+print(f"Attempting to connect to : {mongo_uri}")
+db = pymongo.MongoClient(mongo_uri)
 instance = Instance(db.tawep)
 
 @instance.register
@@ -25,6 +29,17 @@ class Deck(Document):
 
     class Meta:
         collection = db.tawep.deck
+
+@instance.register
+class User(Document):
+
+    name = fields.StringField(required=True,unique=True)
+    admin = fields.BooleanField(required=True)
+    password_hash = fields.StringField(required=True)
+    salt = fields.StringField(required=True)
+
+    class Meta:
+        collection = db.tawep.user
 
 """
 carte_test = Card()

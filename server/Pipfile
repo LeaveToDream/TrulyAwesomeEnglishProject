@@ -11,6 +11,10 @@ name = "pypi"
 
 [packages]
 
+pymongo = "*"
+umongo = "*"
+flask = "*"
+flask-restful = "*"
 
 
 [requires]

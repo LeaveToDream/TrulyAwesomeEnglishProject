@@ -1,0 +1,8 @@
+{	
+	"MONGO" : {
+		"HOSTNAME" : "ds147469.mlab.com",
+		"PORT" : "47469",
+		"USER" : "admin",
+		"PASSWORD" : "Chirac"
+	}
+}
