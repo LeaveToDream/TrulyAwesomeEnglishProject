@@ -7,6 +7,67 @@ import marshmallow.exceptions
 app = Flask(__name__)
 api = Api(app)
 
+class CardsAPI(Resource):
+
+    def get(self):
+
+        result = []
+        for card in model.Card.find():
+            result.append(card.dump())
+
+        return jsonify(result)
+
+    def post(self):
+
+        if security.can_modify(request.cookies.get("user")):
+            try:
+                new_card = model.Card(**request.get_json().get("card"))
+                new_card.commit()
+                return jsonify(new_card.dump())
+            except marshmallow.exceptions.ValidationError as e:
+                abort(400)
+        else:
+            abort(403)
+
+class CardAPI(Resource):
+
+    def get(self,id):
+
+        find_id = security.getObjectId(id)
+        if find_id:
+            result = model.Card.find_one({"_id":find_id})
+            if result:
+                return jsonify(result.dump())
+        
+        abort(404)
+
+    def put(self,id):
+
+        if security.can_modify(request.cookies.get("user")):
+
+            find_id = security.getObjectId(id)
+            if find_id:
+                new_card = request.get_json().get("card")
+                if new_card:
+                    try:
+                        old_card_obj = model.Card.find_one({"_id":find_id})
+                        old_card_obj.update(new_card)
+                        old_card_obj.commit()
+                        return (old_card_obj.dump())
+                    except marshmallow.exceptions.ValidationError as e:
+                        abort(400)
+        abort(403)
+    
+    def delete(self,id):
+
+        if security.can_modify(request.cookies.get("user")):
+            find_id = security.getObjectId(id)
+            if find_id:
+                model.Card.find_one({"_id":find_id}).delete()
+                return "yay !"
+        else:
+            abort(403)
+
 class DecksAPI(Resource):
 
     def get(self):
@@ -113,6 +174,8 @@ def login():
 api.add_resource(DecksAPI, '/api/decks/')
 api.add_resource(DeckAPI , '/api/deck/<string:id>')
 api.add_resource(LoginAPI, '/api/login/')
+api.add_resource(CardsAPI, '/api/cards/')
+api.add_resource(CardAPI , '/api/card/<string:id>')
 
 """
 if __name__ == '__main__':
