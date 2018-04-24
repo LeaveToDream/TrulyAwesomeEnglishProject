@@ -56,7 +56,8 @@ class CardAPI(Resource):
                         return (old_card_obj.dump())
                     except marshmallow.exceptions.ValidationError as e:
                         abort(400)
-        abort(403)
+        else:
+            abort(403)
     
     def delete(self,id):
 
