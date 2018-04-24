@@ -4,7 +4,7 @@ import getpass
 
 config["JWT_SECRET"] = secrets.token_hex(40)
 
-if __name__ == "__main__":
+def main():
 
     if not config["MONGO"].get("USER"):
         config["MONGO"]["USER"] = input("MongoDB Username: ")
@@ -13,4 +13,10 @@ if __name__ == "__main__":
         config["MONGO"]["PASSWORD"] = getpass.getpass("MongoDB Password: ")
 
     import api
-    api.app.run()
+    return api.app
+
+
+if __name__ == "__main__":
+
+    main().run()
+
