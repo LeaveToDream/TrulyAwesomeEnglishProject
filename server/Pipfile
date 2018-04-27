@@ -16,6 +16,7 @@ umongo = "*"
 flask = "*"
 flask-restful = "*"
 gunicorn = "*"
+pyjwt = "*"
 
 
 [requires]

@@ -13,7 +13,7 @@ instance = Instance(db.tawep)
 @instance.register
 class Card(Document):
 
-    date = fields.DateTimeField(required=True)
+    year = fields.IntegerField(required=True)
     img = fields.UrlField()
     short_desc = fields.StringField(required=True,unique=True)
     long_desc = fields.StringField(required=True)

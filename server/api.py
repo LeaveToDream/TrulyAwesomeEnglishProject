@@ -100,7 +100,27 @@ class DeckAPI(Resource):
         if find_id:
             result = model.Deck.find_one({"_id":find_id})
             if result:
-                return jsonify(result.dump())
+                raw_deck = result.dump()
+                cards = []
+                for card_id_raw in raw_deck["cards"]:
+                    
+                    card_id = security.getObjectId(card_id_raw)
+                    
+                    if not card_id:
+                        print(f"Invalid card id : {card_id_raw} in deck {id}")
+                        abort(500)
+                    
+                    card = model.Deck.find_one({"_id":card_id})
+                    
+                    if not card:
+                        print(f"Couldn't find card with id {card_id_raw} in deck {id}")
+                        abort(500)
+
+                    cards.append(card.dump())
+
+                raw_deck["cards"] = cards
+                
+                return jsonify(raw_deck)
         
         abort(404)
 
