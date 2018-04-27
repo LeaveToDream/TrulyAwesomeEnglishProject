@@ -110,7 +110,7 @@ class DeckAPI(Resource):
                         print(f"Invalid card id : {card_id_raw} in deck {id}")
                         abort(500)
                     
-                    card = model.Deck.find_one({"_id":card_id})
+                    card = model.Card.find_one({"_id":card_id})
                     
                     if not card:
                         print(f"Couldn't find card with id {card_id_raw} in deck {id}")
@@ -119,7 +119,7 @@ class DeckAPI(Resource):
                     cards.append(card.dump())
 
                 raw_deck["cards"] = cards
-                
+
                 return jsonify(raw_deck)
         
         abort(404)
