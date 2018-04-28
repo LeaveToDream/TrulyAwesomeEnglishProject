@@ -1,3 +1,4 @@
 node_modules/
 server/infos.txt
 __pycache__/
+test*.py

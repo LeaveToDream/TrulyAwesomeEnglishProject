@@ -3,6 +3,7 @@ from flask_restful import Resource, Api
 import model
 import security
 import marshmallow.exceptions
+import random
 
 app = Flask(__name__)
 api = Api(app)
@@ -96,29 +97,33 @@ class DeckAPI(Resource):
 
     def get(self,id):
 
+        shuffle = "shuffle" in request.args.keys()
+        get_cards_content = "cards_content" in request.args.keys()
+
         find_id = security.getObjectId(id)
         if find_id:
             result = model.Deck.find_one({"_id":find_id})
             if result:
+
                 raw_deck = result.dump()
-                cards = []
-                for card_id_raw in raw_deck["cards"]:
-                    
-                    card_id = security.getObjectId(card_id_raw)
-                    
-                    if not card_id:
-                        print(f"Invalid card id : {card_id_raw} in deck {id}")
-                        abort(500)
-                    
-                    card = model.Card.find_one({"_id":card_id})
-                    
-                    if not card:
-                        print(f"Couldn't find card with id {card_id_raw} in deck {id}")
-                        abort(500)
+                
+                if get_cards_content:
+                    cards = []
+                    for card_id_raw in raw_deck["cards"]:    
+                        card_id = security.getObjectId(card_id_raw)
+                        if not card_id:
+                            print(f"Invalid card id : {card_id_raw} in deck {id}")
+                            abort(500)
+                        card = model.Card.find_one({"_id":card_id})
+                        if not card:
+                            print(f"Couldn't find card with id {card_id_raw} in deck {id}")
+                            abort(500)
+                        cards.append(card.dump())
+                    raw_deck["cards"] = cards
 
-                    cards.append(card.dump())
+                if shuffle:
 
-                raw_deck["cards"] = cards
+                    random.shuffle(raw_deck["cards"])
 
                 return jsonify(raw_deck)
         
