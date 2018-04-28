@@ -170,27 +170,10 @@ class LoginAPI(Resource):
 
         abort(401)
 
-"""
-@app.route("/api/login/",methods=["POST"])
-def login():
-
-    login_user = {x:request.form.get(x) for x in ["name","password"]}
-
-    if all(login_user.values()):
-        
-        found_user = model.User.find_one({"name": login_user["name"]})
-
-        if found_user:
-
-            if security.passwords_match(login_user,found_user):
-                
-                response = make_response("yay !")
-                response.set_cookie('user',value=security.cookify(found_user.dump()))
-                return response
-
-    abort(401)
-"""
-
+@app.route('/api/docs/<path:path>')
+@app.route('/api/docs/',defaults={'path':'index.html'})
+def docs(path):
+    return send_from_directory('docs/_build/html/',path)
 
 api.add_resource(DecksAPI, '/api/decks/')
 api.add_resource(DeckAPI , '/api/deck/<string:id>')

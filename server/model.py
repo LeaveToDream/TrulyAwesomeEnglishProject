@@ -15,8 +15,8 @@ class Card(Document):
 
     year = fields.IntegerField(required=True)
     img = fields.UrlField()
-    short_desc = fields.StringField(required=True,unique=True)
-    long_desc = fields.StringField(required=True)
+    name = fields.StringField(required=True,unique=True)
+    desc = fields.StringField(required=True)
 
     class Meta:
         collection = db.tawep.card
