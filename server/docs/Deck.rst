@@ -5,7 +5,14 @@ Deck unique : ``/api/deck/<string:id>``
 GET
 ===
 
-Renvoie le Deck spécifié par l'id **AVEC les cartes complètes** à la place de leurs IDs dans le champ ``cards``
+Renvoie le Deck spécifié par l'id
+
+.. note::
+
+    Paramètres dans l'url :
+
+        * ``shuffle`` mélanger la liste
+        * ``cards_content`` récuperer le contenu des cartes à la place de leur ids
 
 PUT
 ===

@@ -17,6 +17,9 @@ flask = "*"
 flask-restful = "*"
 gunicorn = "*"
 pyjwt = "*"
+sphinx = "*"
+sphinx-autobuild = "*"
+sphinx-rtd-theme = "*"
 
 
 [requires]
