@@ -1,2 +1,2 @@
 # TrulyAwesomeEnglishProject
-Repo for the English's cours project
+Repo for the English's project
