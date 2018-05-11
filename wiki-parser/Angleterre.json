@@ -1,794 +1,494 @@
 [
     {
-        "year": "700 000 ans avant notre ère ",
-        "name": "",
-        "desc": " Des ossements d’Homo erectus datant de cette époque sont trouvés dans les Norfolk et Suffolk actuels[1]. C'est l’occupation humaine de l’île la plus ancienne connue à ce jour.",
-        "img": ""
-    },
-    {
-        "year": "230 000 ans avant notre ère ",
-        "name": "",
-        "desc": " Le site de Bontnewydd au pays de Galles a livré les plus anciens restes connus de Néandertaliens en Grande-Bretagne, les dents et un fragment de la mâchoire d'un enfant âgé de huit à onze ans[2].",
-        "img": ""
-    },
-    {
-        "year": "110 000 ans avant notre ère ",
-        "name": "",
-        "desc": " Des outils néandertaliens sont trouvés à Dartford, dans le Kent[3].",
-        "img": ""
-    },
-    {
-        "year": "33 000 av. J.-C. ",
-        "name": "",
-        "desc": " la découverte d'un squellette masculin sur la péninsule de Gower, au Pays de Galles, baptisé Dame rouge de Paviland atteste de la présence de l'Homo Sapiens[4].",
-        "img": ""
-    },
-    {
-        "year": "XIe millénaire av. J.-C. ",
-        "name": "",
-        "desc": " Après la dernière période glacière, des humains venant du Nord de la péninsule Ibérique repeuplent la zone[5].",
-        "img": ""
-    },
-    {
-        "year": "IVe millénaire av. J.-C. ",
-        "name": "",
-        "desc": " Naissance de l’agriculture.",
-        "img": ""
-    },
-    {
-        "year": "3800 av. J.-C. ",
-        "name": "",
-        "desc": " Civilisation de Windmill-Hill.",
-        "img": ""
-    },
-    {
-        "year": "2500 av. J.-C. ",
-        "name": "",
-        "desc": " Apparition de la culture campaniforme, période pendant laquelle les monuments néolithiques comme Stonehenge ou Avebury furent construits.",
-        "img": ""
-    },
-    {
-        "year": "IVe siècle av. J.-C. ",
-        "name": "",
-        "desc": " Le matériel archéologique de cette époque, comprenant une production métallurgique laténienne, prouve l'occupation de l'île par des populations celtiques.",
-        "img": ""
-    },
-    {
-        "year": "IIe siècle av. J.-C. ",
-        "name": "",
-        "desc": " Arrivée de peuples belges (Atrébates, Cantiaci, Catuvellauni, Iceni, etc.) dans le sud-est de l'île[6].",
-        "img": ""
-    },
-    {
-        "year": "55 av. J.-C. ",
-        "name": "",
-        "desc": " Première expédition de Jules César sur l'île de « Bretagne » (Britannia).",
-        "img": ""
-    },
-    {
-        "year": "54 av. J.-C. ",
-        "name": "",
-        "desc": " Deuxième expédition de Jules César en Bretagne. Il affronte Cassivellaunos et reçoit la soumission de plusieurs peuples (Trinovantes, Cénimagnes, Ségontiaques, Ancalites, Bibroques, Casses) avant de repartir sur le continent.",
-        "img": ""
-    },
-    {
-        "year": "fin du Ier siècle av. J.-C. - début du Ier siècle apr. J.-C. ",
-        "name": "",
-        "desc": " les Catuvellauni étendent leur domination sur les peuples voisins, les Trinovantes et les Atrébates notamment.",
-        "img": ""
-    },
-    {
-        "year": "8 après J.-C. ",
-        "name": "",
-        "desc": " Les deux souverains Dumnovellaunus (Coritani) et Tincomarus (Atrebates) fuient à Rome demander de l'aide à l’empereur Auguste.",
-        "img": ""
-    },
-    {
-        "year": "39 ",
-        "name": "",
-        "desc": " Sollicité par Adminios, fils de Cunobelinos, Caligula concentre des troupes près de Boulogne-sur-Mer et y fait édifier un phare monumental, puis renonce à tout débarquement.",
-        "img": ""
-    },
-    {
-        "year": "vers 40, le roi atrébate Verica est déposé et se réfugie à Rome.",
-        "name": "",
-        "desc": "",
-        "img": ""
-    },
-    {
-        "year": "43 ",
-        "name": "",
-        "desc": " Début de la conquête romaine de la Bretagne  l'empereur Claude envoie Aulus Plautius en Bretagne à la tête de quatre légions. Les chefs bretons Togodumnus et Caratacos sont vaincus (bataille de Medway). Aulus Plautius devient le premier gouverneur de la province de Bretagne.",
-        "img": ""
-    },
-    {
-        "year": "50 ",
-        "name": "",
-        "desc": " Publius Ostorius Scapula, successeur d'Aulus Plautius, met un terme à la résistance de Caratacos (bataille de Caer Caradoc).",
-        "img": ""
-    },
-    {
-        "year": "60 ",
-        "name": "",
-        "desc": " Le gouverneur Caius Suetonius Paulinus détruit le sanctuaire druidique de l'île d'Anglesey. Les Iceni se révoltent, conduits par leur reine Boadicée, et écrasent la Legio IX Hispana.",
-        "img": ""
-    },
-    {
-        "year": "61 ",
-        "name": "",
-        "desc": " Fin de la révolte de Boadicée, vaincue par Suetonius (bataille de Watling Street).",
-        "img": ""
-    },
-    {
-        "year": "71-74 ",
-        "name": "",
-        "desc": " Quintus Petillius Cerialis affronte les Brigantes.",
-        "img": ""
-    },
-    {
-        "year": "76-78 ",
-        "name": "",
-        "desc": " Sextus Julius Frontinus soumet les Silures.",
-        "img": ""
-    },
-    {
-        "year": "78 ",
-        "name": "",
-        "desc": " Julius Agricola écrase les Ordovices.",
-        "img": ""
-    },
-    {
-        "year": "78-84 ",
-        "name": "",
-        "desc": " Campagnes de Julius Agricola en Calédonie. Il est rappelé par l'empereur Domitien avant d'en avoir achevé la conquête.",
-        "img": ""
-    },
-    {
-        "year": "118 ",
-        "name": "",
-        "desc": " Quintus Pompeius Falco écrase une rébellion dans le Nord.",
-        "img": ""
-    },
-    {
-        "year": "122 ",
-        "name": "",
-        "desc": " Début de la construction du Mur d'Hadrien à la suite de la visite de l'empereur Hadrien en Bretagne.",
-        "img": ""
-    },
-    {
-        "year": "142 ",
-        "name": "",
-        "desc": " Début de la construction du Mur d'Antonin.",
-        "img": ""
-    },
-    {
-        "year": "162 ",
-        "name": "",
-        "desc": " Les Romains se retranchent derrière le Mur d'Hadrien et abandonnent le Mur d'Antonin.",
-        "img": ""
-    },
-    {
-        "year": "197 ",
-        "name": "",
-        "desc": " Le gouverneur Clodius Albinus est proclamé empereur par ses légions et traverse la Manche. Il est vaincu et tué par Septime Sévère peu après.",
-        "img": ""
-    },
-    {
-        "year": "208-210 ",
-        "name": "",
-        "desc": " Campagnes de l'empereur Septime Sévère en Calédonie.",
-        "img": ""
-    },
-    {
-        "year": "211 ",
-        "name": "",
-        "desc": " Septième Sévère meurt à Eboracum (4 février).",
-        "img": ""
-    },
-    {
-        "year": "260-274 ",
-        "name": "",
-        "desc": " La Bretagne relève de l'Empire des Gaules fondé par Postume.",
-        "img": ""
-    },
-    {
-        "year": "286 ",
-        "name": "",
-        "desc": " Le commandant militaire Carausius est proclamé empereur par ses légions.",
-        "img": ""
-    },
-    {
-        "year": "289 ",
-        "name": "",
-        "desc": " Maximien Hercule tente d'envahir la Bretagne pour déposer Carausius, mais échoue.",
-        "img": ""
-    },
-    {
-        "year": "293 ",
-        "name": "",
-        "desc": " Carausius est assassiné par Allectus, qui usurpe à son tour le pouvoir.",
-        "img": ""
-    },
-    {
-        "year": "vers 293 ",
-        "name": "",
-        "desc": " Dioclétien réorganise la Bretagne en quatre provinces  Britannia Prima, Britannia Secunda, Flavia Caesariensis et Maxima Caesariensis.",
-        "img": ""
-    },
-    {
-        "year": "296 ",
-        "name": "",
-        "desc": " Allectus est vaincu et tué par Julius Asclepiodotus pour le compte de Constance Chlore.",
-        "img": ""
-    },
-    {
-        "year": "305 ",
-        "name": "",
-        "desc": " Campagne de Constance Chlore en Calédonie.",
-        "img": ""
-    },
-    {
-        "year": "306 ",
-        "name": "",
-        "desc": " Constance Chlore meurt à Eboracum (25 juillet).",
-        "img": ""
-    },
-    {
-        "year": "350-353 ",
-        "name": "",
-        "desc": " La Bretagne rallie l'usurpateur Magnence.",
-        "img": ""
-    },
-    {
-        "year": "370 ",
-        "name": "",
-        "desc": " Théodose l'Ancien crée la province de Valentia à la suite des invasions pictes de 368-370.",
-        "img": ""
-    },
-    {
-        "year": "383 ",
-        "name": "",
-        "desc": " Le général Magnus Maximus est proclamé empereur par ses légions.",
-        "img": ""
-    },
-    {
-        "year": "407 ",
-        "name": "",
-        "desc": " Les légions de Bretagne proclament successivement empereurs Marcus, Gratien et enfin Constantin III. Il traverse la Manche avec toutes ses troupes.",
-        "img": ""
-    },
-    {
-        "year": "410 ",
-        "name": "",
-        "desc": " L'empereur Honorius écrit aux Bretons pour leur recommander de prendre en main eux-mêmes leur défense.",
-        "img": ""
-    },
-    {
-        "year": "429 ",
-        "name": "",
-        "desc": " premier voyage de Germain d'Auxerre, avec saint-Loup, pour combattre le pélagianisme.",
-        "img": ""
-    },
-    {
-        "year": "448 ",
-        "name": "",
-        "desc": " second voyage de Germain d'Auxerre.",
-        "img": ""
-    },
-    {
-        "year": "vers 450 ",
-        "name": "",
-        "desc": " Les Bretons font appel au consul Aetius pour leur défense, mais celui-ci ne peut les aider.",
-        "img": ""
-    },
-    {
-        "year": "vers 500 ",
-        "name": "",
-        "desc": " Bataille du Mont Badon.",
-        "img": ""
-    },
-    {
-        "year": "597 ",
-        "name": "",
-        "desc": " Fondation de l'archevêché de Cantorbéry par Augustin.",
-        "img": ""
-    },
-    {
-        "year": "616 ",
-        "name": "",
-        "desc": " Mort d'Æthelberht de Kent.",
-        "img": ""
-    },
-    {
-        "year": "616 ou 617 ",
-        "name": "",
-        "desc": " Æthelfrith de Northumbrie est vaincu et tué par Rædwald d'Est-Anglie (bataille de la rivière Idle).",
+        "year": -55,
+        "name": "Première expédition de Jules César",
+        "desc": "Première expédition de Jules César sur l'île de « Bretagne » (Britannia).",
         "img": ""
     },
     {
-        "year": "633 ",
-        "name": "",
-        "desc": " Edwin de Northumbrie est vaincu et tué par Cadwallon ap Cadfan et Penda de Mercie (bataille de Hatfield Chase).",
+        "year": -54,
+        "name": "Deuxième expédition de Jules César",
+        "desc": "Deuxième expédition de Jules César en Bretagne. Il affronte Cassivellaunos et reçoit la soumission de plusieurs peuples (Trinovantes, Cénimagnes, Ségontiaques, Ancalites, Bibroques, Casses) avant de repartir sur le continent.",
         "img": ""
     },
     {
-        "year": "634 ",
-        "name": "",
-        "desc": " Cadwallon est vaincu et tué par Oswald de Northumbrie (bataille de Heavenfield).",
+        "year": 43,
+        "name": "Début de la conquête romaine de la Bretagne par Claude",
+        "desc": "L'empereur Claude envoie Aulus Plautius en Bretagne à la tête de quatre légions. Les chefs bretons Togodumnus et Caratacos sont vaincus (bataille de Medway). Aulus Plautius devient le premier gouverneur de la province de Bretagne.",
         "img": ""
     },
     {
-        "year": "642 ",
-        "name": "",
-        "desc": " Oswald est vaincu et tué par Penda de Mercie (bataille de Maserfield).",
+        "year": 60,
+        "name": "Révolte des Iceni",
+        "desc": "Le gouverneur Caius Suetonius Paulinus détruit le sanctuaire druidique de l'île d'Anglesey. Les Iceni se révoltent, conduits par leur reine Boadicée, et écrasent la Legio IX Hispana.",
         "img": ""
     },
     {
-        "year": "655 ",
-        "name": "",
-        "desc": " Penda est vaincu et tué par Oswiu de Northumbrie (bataille de Winwaed).",
+        "year": 122,
+        "name": "Début de la construction du Mur d'Hadrien",
+        "desc": "Début de la construction du Mur d'Hadrien à la suite de la visite de l'empereur Hadrien en Bretagne.",
         "img": ""
     },
     {
-        "year": "664 ",
-        "name": "",
-        "desc": " Concile de Whitby.",
+        "year": 142,
+        "name": "Début de la construction du Mur d'Antonin",
+        "desc": "Début de la construction du Mur d'Antonin.",
         "img": ""
     },
     {
-        "year": "685 ",
-        "name": "",
-        "desc": " Ecgfrith de Northumbrie est vaincu et tué par les Pictes (bataille de Nechtansmere).",
+        "year": 162,
+        "name": "Les Romains se retranchent derrière le Mur d'Hadrien et abandonnent le Mur d'Antonin.",
+        "desc": "Les Romains se retranchent derrière le Mur d'Hadrien et abandonnent le Mur d'Antonin.",
         "img": ""
     },
     {
-        "year": "716-757 ",
-        "name": "",
-        "desc": " Règne d'Æthelbald de Mercie.",
+        "year": 293,
+        "name": "Découpe de la Bretagne par Dioclétien",
+        "desc": "Dioclétien réorganise la Bretagne en quatre provinces Britannia Prima, Britannia Secunda, Flavia Caesariensis et Maxima Caesariensis.",
         "img": ""
     },
     {
-        "year": "757-796 ",
-        "name": "",
-        "desc": " Règne d'Offa de Mercie.",
+        "year": 410,
+        "name": "Lettre de Honorius aux Bretons",
+        "desc": "L'empereur Honorius écrit aux Bretons pour leur recommander de prendre en main eux-mêmes leur défense.",
         "img": ""
     },
     {
-        "year": "793 ",
-        "name": "",
-        "desc": " Le monastère de Lindisfarne est pillé par les Vikings.",
+        "year": 500,
+        "name": "Bataille du Mont Badon",
+        "desc": "Bataille du Mont Badon.",
         "img": ""
     },
     {
-        "year": "825 ",
-        "name": "",
-        "desc": " Beornwulf de Mercie est vaincu par Egbert de Wessex (bataille d'Ellendune). Tout le Sud-Est de l'Angleterre passe dans le giron du Wessex.",
+        "year": 597,
+        "name": "Fondation de l'archevêché de Cantorbéry",
+        "desc": "Fondation de l'archevêché de Cantorbéry par Augustin.",
         "img": ""
     },
     {
-        "year": "865 ",
-        "name": "",
-        "desc": " La Grande Armée païenne débarque en Angleterre.",
+        "year": 616,
+        "name": "Bataille de la rivière Idle",
+        "desc": "Æthelfrith de Northumbrie est vaincu et tué par Rædwald d'Est-Anglie",
         "img": ""
     },
     {
-        "year": "867 ",
-        "name": "",
-        "desc": " Les Danois conquièrent la Northumbrie.",
+        "year": 634,
+        "name": "Bataille de Heavenfield",
+        "desc": "Cadwallon est vaincu et tué par Oswald de Northumbrie",
         "img": ""
     },
     {
-        "year": "869 ",
-        "name": "",
-        "desc": " Les Danois conquièrent l'Est-Anglie (mort d'Edmond le Martyr).",
+        "year": 642,
+        "name": "Bataille de Maserfield",
+        "desc": "Oswald est vaincu et tué par Penda de Mercie",
         "img": ""
     },
     {
-        "year": "878 ",
-        "name": "",
-        "desc": " Alfred le Grand triomphe des Danois (bataille d'Ethandun).",
+        "year": 655,
+        "name": "bataille de Winwaed",
+        "desc": "Penda est vaincu et tué par Oswiu de Northumbrie",
         "img": ""
     },
     {
-        "year": "899 ",
-        "name": "",
-        "desc": " Mort d'Alfred le Grand.",
+        "year": 685,
+        "name": "Bataille de Nechtansmere",
+        "desc": "Ecgfrith de Northumbrie est vaincu et tué par les Pictes",
         "img": ""
     },
     {
-        "year": "918 ",
-        "name": "",
-        "desc": " Édouard l'Ancien prend le contrôle de la Mercie après la mort de sa sœur Æthelflæd.",
+        "year": 716,
+        "name": "Début du Règne d'Æthelbald de Mercie",
+        "desc": "Début du Règne d'Æthelbald de Mercie.",
         "img": ""
     },
     {
-        "year": "924-939 ",
-        "name": "",
-        "desc": " Règne d'Æthelstan.",
+        "year": 757,
+        "name": "Début du Règne d'Offa de Mercie",
+        "desc": "Début du Règne d'Offa de Mercie.",
         "img": ""
     },
     {
-        "year": "937 ",
-        "name": "",
-        "desc": " Æthelstan bat les armées du roi de Dublin Olaf Gothfrithson, du roi d'Alba Constantin II et du roi de Strathclyde Owen Ier (bataille de Brunanburh).",
+        "year": 793,
+        "name": "Le monastère de Lindisfarne est pillé par les Vikings",
+        "desc": "Le monastère de Lindisfarne est pillé par les Vikings.",
         "img": ""
     },
     {
-        "year": "939-946 ",
-        "name": "",
-        "desc": " Règne d'Edmond.",
+        "year": 825,
+        "name": "Bataille d'Ellendune",
+        "desc": "Beornwulf de Mercie est vaincu par Egbert de Wessex. Tout le Sud-Est de l'Angleterre passe dans le giron du Wessex.",
         "img": ""
     },
     {
-        "year": "946-955 ",
-        "name": "",
-        "desc": " Règne d'Eadred.",
+        "year": 865,
+        "name": "La Grande Armée païenne débarque en Angleterre",
+        "desc": "La Grande Armée païenne débarque en Angleterre.",
         "img": ""
     },
     {
-        "year": "955-959 ",
-        "name": "",
-        "desc": " Règne d'Eadwig le Beau.",
+        "year": 867,
+        "name": "Les Danois conquièrent la Northumbrie",
+        "desc": "Les Danois conquièrent la Northumbrie.",
         "img": ""
     },
     {
-        "year": "959-975 ",
-        "name": "",
-        "desc": " Règne d'Edgar le Pacifique.",
+        "year": 878,
+        "name": "Bataille d'Ethandun",
+        "desc": "Alfred le Grand triomphe des Danois.",
         "img": ""
     },
     {
-        "year": "975-978 ",
-        "name": "",
-        "desc": " Règne d'Édouard le Martyr.",
+        "year": 899,
+        "name": "Mort d'Alfred le Grand",
+        "desc": "Mort d'Alfred le Grand.",
         "img": ""
     },
     {
-        "year": "978-1013 ",
-        "name": "",
-        "desc": " Règne d'Æthelred le Malavisé.",
+        "year": 924,
+        "name": "Début du Règne d'Æthelstan",
+        "desc": "Début du Règne d'Æthelstan.",
         "img": ""
     },
     {
-        "year": "991 ",
-        "name": "",
-        "desc": " Bataille de Maldon (10 août).",
+        "year": 937,
+        "name": "Bataille de Brunanburh",
+        "desc": "Æthelstan bat les armées du roi de Dublin Olaf Gothfrithson, du roi d'Alba Constantin II et du roi de Strathclyde Owen Ier.",
         "img": ""
     },
     {
-        "year": "1002 ",
-        "name": "",
-        "desc": " Æthelred le Malavisé ordonne le massacre de tous les Danois vivant en Angleterre (massacre de la Saint-Brice).",
+        "year": 939,
+        "name": "Début du Règne d'Edmond",
+        "desc": "Début du Règne d'Edmond.",
         "img": ""
     },
     {
-        "year": "1013 ",
-        "name": "",
-        "desc": " Æthelred le Malavisé est chassé d'Angleterre par le Danois Sven Barbe-Fourchue.",
+        "year": 946,
+        "name": "Début du Règne d'Eadred",
+        "desc": "Début du Règne d'Eadred.",
         "img": ""
     },
     {
-        "year": "1014 ",
-        "name": "",
-        "desc": " La mort de Sven (2 février) permet à Æthelred de reprendre son trône.",
+        "year": 955,
+        "name": "Début du Règne d'Eadwig le Beau",
+        "desc": "Début du Règne d'Eadwig le Beau.",
         "img": ""
     },
     {
-        "year": "1016 ",
-        "name": "",
-        "desc": " Cnut le Grand envahit l'Angleterre. Il bat Edmond Côte-de-Fer (bataille d'Assandun, 18 octobre), et obtient le partage du royaume. À la suite de la mort d'Edmond (30 novembre), Cnut devient roi de toute l'Angleterre.",
+        "year": 959,
+        "name": "Début du Règne d'Edgar le Pacifique",
+        "desc": "Début du Règne d'Edgar le Pacifique.",
         "img": ""
     },
     {
-        "year": "1016-1035 ",
-        "name": "",
-        "desc": " Règne de Cnut le Grand.",
+        "year": 975,
+        "name": "Début du Règne d'Édouard le Martyr",
+        "desc": "Début du Règne d'Édouard le Martyr.",
         "img": ""
     },
     {
-        "year": "1035-1040 ",
-        "name": "",
-        "desc": " Règne d'Harold Pied-de-Lièvre.",
+        "year": 978,
+        "name": "Début du Règne d'Æthelred le Malavisé",
+        "desc": "Début du Règne d'Æthelred le Malavisé.",
         "img": ""
     },
     {
-        "year": "1040-1042 ",
-        "name": "",
-        "desc": " Règne d'Harthacnut.",
+        "year": 991,
+        "name": "Bataille de Maldon",
+        "desc": "Bataille de Maldon (10 août).",
         "img": ""
     },
     {
-        "year": "1042-1066 ",
-        "name": "",
-        "desc": " Règne d'Édouard le Confesseur.",
+        "year": 1002,
+        "name": "Massacre de la Saint-Brice",
+        "desc": "Æthelred le Malavisé ordonne le massacre de tous les Danois vivant en Angleterre.",
         "img": ""
     },
     {
-        "year": "1066 ",
-        "name": "",
-        "desc": " Mort d'Édouard le Confesseur (5 janvier). Harold Godwinson est couronné le lendemain, mais d'autres prétendants se font connaître. Harold bat Harald de Norvège (bataille de Stamford Bridge, 25 septembre), mais il est vaincu et tué à son tour par Guillaume de Normandie (bataille d'Hastings, 14 octobre). Guillaume est couronné roi d'Angleterre (25 décembre).",
+        "year": 1016,
+        "name": "Cnut le Grand envahit l'Angleterre",
+        "desc": "Cnut bat Edmond Côte-de-Fer (bataille d'Assandun, 18 octobre), et obtient le partage du royaume. À la suite de la mort d'Edmond (30 novembre), Cnut devient roi de toute l'Angleterre.",
         "img": ""
     },
     {
-        "year": "1066-1087 ",
-        "name": "",
-        "desc": " Règne de Guillaume Ier le Conquérant.",
+        "year": 1035,
+        "name": "Début du Règne d'Harold Pied-de-Lièvre",
+        "desc": "Début du Règne d'Harold Pied-de-Lièvre.",
         "img": ""
     },
     {
-        "year": "1086 ",
-        "name": "",
-        "desc": " Compilation du Domesday Book.",
+        "year": 1040,
+        "name": "Début du Règne d'Harthacnut",
+        "desc": "Début du Règne d'Harthacnut.",
         "img": ""
     },
     {
-        "year": "1087-1100 ",
-        "name": "",
-        "desc": " Règne de Guillaume II le Roux.",
+        "year": 1042,
+        "name": "Début du  Règne d'Édouard le Confesseur",
+        "desc": "Début du  Règne d'Édouard le Confesseur.",
         "img": ""
     },
     {
-        "year": "1100-1135 ",
-        "name": "",
-        "desc": " Règne d'Henri Ier Beauclerc.",
+        "year": 1066,
+        "name": "Début du Règne de Guillaume Ier le Conquérant",
+        "desc": "Début du Règne de Guillaume Ier le Conquérant.",
         "img": ""
     },
     {
-        "year": "1135-1154 ",
-        "name": "",
-        "desc": " Règne d'Étienne de Blois.",
+        "year": 1086,
+        "name": "Compilation du Domesday Book",
+        "desc": "Compilation du Domesday Book.",
         "img": ""
     },
     {
-        "year": "1154-1189 ",
-        "name": "",
-        "desc": " Règne d'Henri II Court-manteau.",
+        "year": 1087,
+        "name": "Début du Règne de Guillaume II le Roux",
+        "desc": "Début du Règne de Guillaume II le Roux.",
         "img": ""
     },
     {
-        "year": "1189-1199 ",
-        "name": "",
-        "desc": " Règne de Richard Ier Cœur-de-Lion.",
+        "year": 1100,
+        "name": "Début du Règne d'Henri Ier Beauclerc",
+        "desc": "Début du Règne d'Henri Ier Beauclerc.",
         "img": ""
     },
     {
-        "year": "1199-1216 ",
-        "name": "",
-        "desc": " règne de Jean sans Terre.",
+        "year": 1135,
+        "name": "Début du Règne d'Étienne de Blois",
+        "desc": "Début du Règne d'Étienne de Blois.",
         "img": ""
     },
     {
-        "year": "1215 ",
-        "name": "",
-        "desc": " Magna Carta.",
+        "year": 1154,
+        "name": "Début du Règne d'Henri II Court-manteau",
+        "desc": "Début du Règne d'Henri II Court-manteau.",
         "img": ""
     },
     {
-        "year": "1216-1272 ",
-        "name": "",
-        "desc": " règne d'Henri III.",
+        "year": 1189,
+        "name": "Début du Règne de Richard Ier Cœur-de-Lion",
+        "desc": "Début du Règne de Richard Ier Cœur-de-Lion.",
         "img": ""
     },
     {
-        "year": "1258 ",
-        "name": "",
-        "desc": " conséquence probable d'un « hiver » volcanique qui aurait selon des études scientifiques récentes été provoqué sur la majeure partie de la Terre par l'éruption et l'effondrement du volcan Samalas, en 1257 (sur l'île de Lombok, une des petites îles de la Sonde), de mauvaises récoltes entraînent une famine (relatée dans la Chronica Majora), qui rend de surcroît la population plus vulnérable aux maladies infectieuses  un tiers de celle de Londres serait alors mort.",
+        "year": 1199,
+        "name": "Début du règne de Jean sans Terre",
+        "desc": "Début du règne de Jean sans Terre.",
         "img": ""
     },
     {
-        "year": "1264-1267 ",
-        "name": "",
-        "desc": " Seconde Guerre des barons.",
+        "year": 1215,
+        "name": "Magna Carta",
+        "desc": "latin pour Grande Charte, désigne plusieurs versions d'une charte dans laquelle Les barons y imposent la libération d'otages retenus par le Roi, le respect de certaines règles de droit propres à la noblesse, la reconnaissance des franchises ecclésiastiques et bourgeoises et le contrôle de la politique fiscale par un Grand Conseil.",
         "img": ""
     },
     {
-        "year": "1272-1307 ",
-        "name": "",
-        "desc": " règne d'Édouard Ier.",
+        "year": 1216,
+        "name": "Début du règne d'Henri III",
+        "desc": "Début du règne d'Henri III.",
         "img": ""
     },
     {
-        "year": "1284 ",
-        "name": "",
-        "desc": " Statut de Rhuddlan.",
+        "year": 1264,
+        "name": "Début de la Seconde Guerre des barons",
+        "desc": "Début de la Seconde Guerre des barons.",
         "img": ""
     },
     {
-        "year": "1296-1328 ",
-        "name": "",
-        "desc": " Première Guerre d'indépendance de l'Écosse.",
+        "year": 1272,
+        "name": "Début du règne d'Édouard Ier",
+        "desc": "Début du règne d'Édouard Ier.",
         "img": ""
     },
     {
-        "year": "1307-1327 ",
-        "name": "",
-        "desc": " Règne d'Édouard II.",
+        "year": 1296,
+        "name": "Début de la Première Guerre d'indépendance de l'Écosse",
+        "desc": "Début de la Première Guerre d'indépendance de l'Écosse.",
         "img": ""
     },
     {
-        "year": "1314 ",
-        "name": "",
-        "desc": " Bataille de Bannockburn.",
+        "year": 1307,
+        "name": "Début du Règne d'Édouard II",
+        "desc": "Début du Règne d'Édouard II.",
         "img": ""
     },
     {
-        "year": "1327-1377 ",
-        "name": "",
-        "desc": " Règne d'Édouard III.",
+        "year": 1314,
+        "name": "Bataille de Bannockburn",
+        "desc": "Bataille de Bannockburn.",
         "img": ""
     },
     {
-        "year": "1337-1453 ",
-        "name": "",
-        "desc": " Guerre de Cent Ans.",
+        "year": 1327,
+        "name": "Début du Règne d'Édouard III",
+        "desc": "Début du Règne d'Édouard III.",
         "img": ""
     },
     {
-        "year": "1346 ",
-        "name": "",
-        "desc": " Bataille de Crécy (26 août).",
+        "year": 1337,
+        "name": "Début de la Guerre de Cent Ans",
+        "desc": "Début de la Guerre de Cent Ans.",
         "img": ""
     },
     {
-        "year": "1356 ",
-        "name": "",
-        "desc": " Bataille de Poitiers (19 septembre).",
+        "year": 1346,
+        "name": "Bataille de Crécy",
+        "desc": "Bataille de Crécy (26 août).",
         "img": ""
     },
     {
-        "year": "1360 ",
-        "name": "",
-        "desc": " Traité de Brétigny (8 mai).",
+        "year": 1356,
+        "name": "Bataille de Poitiers",
+        "desc": "Bataille de Poitiers (19 septembre).",
         "img": ""
     },
     {
-        "year": "1377-1399 ",
+        "year": 1360,
         "name": "",
-        "desc": " Règne de Richard II.",
+        "desc": "Traité de Brétigny (8 mai).",
         "img": ""
     },
     {
-        "year": "1381 ",
-        "name": "",
-        "desc": " Révolte des paysans.",
+        "year": 1377,
+        "name": "Début du Règne de Richard II",
+        "desc": "Début du Règne de Richard II.",
         "img": ""
     },
     {
-        "year": "1399-1413 ",
-        "name": "",
-        "desc": " Règne d'Henri IV.",
+        "year": 1381,
+        "name": "Révolte des paysans",
+        "desc": "Révolte des paysans.",
         "img": ""
     },
     {
-        "year": "1413-1422 ",
-        "name": "",
-        "desc": " Règne d'Henri V.",
+        "year": 1399,
+        "name": "Début du Règne d'Henri IV",
+        "desc": "Début du Règne d'Henri IV.",
         "img": ""
     },
     {
-        "year": "1415 ",
-        "name": "",
-        "desc": " Bataille d'Azincourt (25 octobre).",
+        "year": 1413,
+        "name": "Début du Règne d'Henri V",
+        "desc": "Début du Règne d'Henri V.",
         "img": ""
     },
     {
-        "year": "1422-1461 ",
-        "name": "",
-        "desc": " Premier règne d'Henri VI.",
+        "year": 1415,
+        "name": "Bataille d'Azincourt",
+        "desc": "Bataille d'Azincourt (25 octobre).",
         "img": ""
     },
     {
-        "year": "1453 ",
-        "name": "",
-        "desc": " Bataille de Castillon (17 juillet).",
+        "year": 1422,
+        "name": "Début du Premier règne d'Henri VI",
+        "desc": "Début du Premier règne d'Henri VI.",
         "img": ""
     },
     {
-        "year": "1455-1487 ",
-        "name": "",
-        "desc": " La guerre des Deux-Roses, série de guerres civiles opposant les maisons de Lancastre et d'York.",
+        "year": 1453,
+        "name": "Bataille de Castillon",
+        "desc": "Bataille de Castillon (17 juillet).",
         "img": ""
     },
     {
-        "year": "1485 ",
-        "name": "",
-        "desc": " Le dernier roi de la maison d'York, Richard III, est vaincu et tué à la bataille de Bosworth par Henri Tudor (22 août).",
+        "year": 1455,
+        "name": "Guerre des Deux-Roses",
+        "desc": "Série de guerres civiles opposant les maisons de Lancastre et d'York.",
         "img": ""
     },
     {
-        "year": "1534 ",
-        "name": "",
-        "desc": " Acte de suprématie.",
+        "year": 1485,
+        "name": "Bataille de Bosworth",
+        "desc": "Le dernier roi de la maison d'York, Richard III, est vaincu et tué à la bataille de Bosworth par Henri Tudor (22 août).",
         "img": ""
     },
     {
-        "year": "1549 ",
-        "name": "",
-        "desc": " Révolte du livre de la prière commune.",
+        "year": 1534,
+        "name": "Acte de suprématie",
+        "desc": "Acte de suprématie.",
         "img": ""
     },
     {
-        "year": "1569-1570 ",
-        "name": "",
-        "desc": " Soulèvement du Nord.",
+        "year": 1549,
+        "name": "Révolte du livre de la prière commune",
+        "desc": "Révolte du livre de la prière commune.",
         "img": ""
     },
     {
-        "year": "1603-1625 ",
-        "name": "",
-        "desc": " Règne de Jacques Ier, premier roi d'Angleterre et d'Écosse.",
+        "year": 1603,
+        "name": "Début du Règne de Jacques Ier",
+        "desc": "Début du Règne de Jacques Ier, premier roi d'Angleterre et d'Écosse.",
         "img": ""
     },
     {
-        "year": "1625-1649 ",
-        "name": "",
-        "desc": " Règne de Charles Ier.",
+        "year": 1625,
+        "name": "Début du Règne de Charles Ier",
+        "desc": "Début du Règne de Charles Ier.",
         "img": ""
     },
     {
-        "year": "1642-1646 ",
-        "name": "",
-        "desc": " Première guerre civile anglaise.",
+        "year": 1642,
+        "name": "Première guerre civile anglaise.",
+        "desc": "Première guerre civile anglaise.",
         "img": ""
     },
     {
-        "year": "1645 ",
-        "name": "",
-        "desc": " L'armée royale est écrasée par les troupes de Fairfax et Cromwell (bataille de Naseby, 14 juin).",
+        "year": 1645,
+        "name": "Bataille de Naseby",
+        "desc": "L'armée royale est écrasée par les troupes de Fairfax et Cromwell (14 juin).",
         "img": ""
     },
     {
-        "year": "1648-1649 ",
-        "name": "",
-        "desc": " Deuxième guerre civile anglaise.",
+        "year": 1648,
+        "name": "Deuxième guerre civile anglaise",
+        "desc": "Deuxième guerre civile anglaise.",
         "img": ""
     },
     {
-        "year": "1649 ",
-        "name": "",
-        "desc": " Exécution de Charles Ier (30 janvier).",
+        "year": 1649,
+        "name": "Exécution de Charles Ier",
+        "desc": "Exécution de Charles Ier (30 janvier).",
         "img": ""
     },
     {
-        "year": "1649-1651 ",
-        "name": "",
-        "desc": " Troisième guerre civile anglaise.",
+        "year": 1649,
+        "name": "Troisième guerre civile anglaise",
+        "desc": "Troisième guerre civile anglaise.",
         "img": ""
     },
     {
-        "year": "1665 ",
-        "name": "",
-        "desc": " Grande peste de Londres.",
+        "year": 1665,
+        "name": "Grande peste de Londres",
+        "desc": "Grande peste de Londres.",
         "img": ""
     },
     {
-        "year": "1666 ",
-        "name": "",
-        "desc": " Grand incendie de Londres.",
+        "year": 1666,
+        "name": "Grand incendie de Londres",
+        "desc": "Grand incendie de Londres.",
         "img": ""
     },
     {
-        "year": "1685 ",
-        "name": "",
-        "desc": " Rébellion de Monmouth.",
+        "year": 1685,
+        "name": "Rébellion de Monmouth",
+        "desc": "Rébellion de Monmouth.",
         "img": ""
     },
     {
-        "year": "1688 ",
-        "name": "",
-        "desc": " Glorieuse Révolution.",
+        "year": 1688,
+        "name": "Glorieuse Révolution",
+        "desc": "Glorieuse Révolution.",
         "img": ""
     },
     {
-        "year": "1689 ",
-        "name": "",
-        "desc": " La Déclaration des droits est votée par le Parlement d'Angleterre (16 décembre).",
+        "year": 1689,
+        "name": "La Déclaration des droits est votée par le Parlement d'Angleterre",
+        "desc": "La Déclaration des droits est votée par le Parlement d'Angleterre (16 décembre).",
         "img": ""
     },
     {
-        "year": "1707",
-        "name": "",
-        "desc": " Par l'Acte d'Union, les royaumes d'Angleterre et d'Écosse fusionnent au sein du nouveau royaume de Grande-Bretagne (1er mai).",
+        "year": 1707,
+        "name": "Signature de l'Acte d'Union",
+        "desc": "Par cet acte, les royaumes d'Angleterre et d'Écosse fusionnent au sein du nouveau royaume de Grande-Bretagne (1er mai).",
         "img": ""
     }
 ]
