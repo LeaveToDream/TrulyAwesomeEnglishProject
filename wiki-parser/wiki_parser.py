@@ -27,7 +27,10 @@ def wiki_parser(url_page_wiki, fichier):
 
                         carte = OrderedDict()
 
-                        carte["year"] = texte_split[0]
+                        try:
+                            carte["year"] = int(texte_split[0])
+                        except ValueError:
+                            carte["year"] = texte_split[0]
                         carte["name"] = ""
                         carte["desc"] = "".join(texte_split[1:])
                         carte["img"] = ""
