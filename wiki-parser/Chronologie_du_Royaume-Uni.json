@@ -1,302 +1,291 @@
 [
     {
         "year": "1603 ",
-        "name": "",
-        "desc": " Union des Couronnes - l'accession en 1603 de Jacques VI, roi d'Écosse au trône d'Angleterre, sous le nom de Jacques Ier, réunit ainsi ces deux pays sous un seul monarque, à la suite de la mort de sa cousine régnant sur l'Angleterre et l'Irlande, Élisabeth Ire, dernier monarque de la dynastie Tudor, décédée célibataire et sans enfant. Mais ce n'est pas, à proprement parler, une union personnelle, ni une union dynastique, puisque les Couronnes demeurant distinctes et séparées, malgré les efforts de Jacques Ier pour créer un nouveau trône impérial de Grande-Bretagne. L'Angleterre et l'Écosse, bien que partageant le même monarque, demeurent donc des États indépendants, jusqu'à l'acte d'Union de 1707.",
+        "name": "Union des Couronnes",
+        "desc": "L'accession en 1603 de Jacques VI, roi d'Écosse au trône d'Angleterre, sous le nom de Jacques Ier, réunit ainsi ces deux pays sous un seul monarque, à la suite de la mort de sa cousine régnant sur l'Angleterre et l'Irlande, Élisabeth Ire, dernier monarque de la dynastie Tudor, décédée célibataire et sans enfant. Mais ce n'est pas, à proprement parler, une union personnelle, ni une union dynastique, puisque les Couronnes demeurant distinctes et séparées, malgré les efforts de Jacques Ier pour créer un nouveau trône impérial de Grande-Bretagne. L'Angleterre et l'Écosse, bien que partageant le même monarque, demeurent donc des États indépendants, jusqu'à l'acte d'Union de 1707.",
         "img": ""
     },
     {
         "year": "1688 ",
-        "name": "",
-        "desc": " Glorieuse Révolution - elle a pour conséquence de renverser le roi Jacques II et provoque l’avènement de la fille de celui-ci, Marie II et de son époux, Guillaume III, prince d'Orange à la suite de l'invasion néerlandaise de l'Angleterre menée par ce dernier. La révolution instaure une monarchie constitutionnelle et parlementaire à la place du gouvernement autocratique des Stuarts.",
+        "name": "Glorieuse Révolution",
+        "desc": " Elle a pour conséquence de renverser le roi Jacques II et provoque l’avènement de la fille de celui-ci, Marie II et de son époux, Guillaume III, prince d'Orange à la suite de l'invasion néerlandaise de l'Angleterre menée par ce dernier. La révolution instaure une monarchie constitutionnelle et parlementaire à la place du gouvernement autocratique des Stuarts.",
         "img": ""
     },
     {
         "year": "1690 ",
-        "name": "",
-        "desc": " le 10 juillet, bataille de la Boyne, en Irlande, opposant Jacques II à Guillaume III ; victoire de ce dernier.",
+        "name": "La bataille de la Boyne",
+        "desc": "Le 10 juillet, bataille de la Boyne, en Irlande, opposant Jacques II à Guillaume III ; victoire de ce dernier.",
         "img": ""
     },
     {
         "year": "1698 ",
-        "name": "",
-        "desc": " au traité de Ryswick, la France, qui avait soutenu les Stuarts, reconnaît Guillaume III comme roi d'Angleterre.",
+        "name": "Traité de Ryswick",
+        "desc": "EN 1698, après plusieurs mois de négociations, le traité de Ryswick est signé. Entre autre, au traité de Ryswick, la France, qui avait soutenu les Stuarts, reconnaît Guillaume III comme roi d'Angleterre.",
         "img": ""
     },
     {
         "year": "1701 ",
-        "name": "",
-        "desc": " L'acte d'établissement anglais de 1701 requiert que le monarque soit protestant.",
+        "name": "The Act of Settlement",
+        "desc": "L’Acte d’Établissement est une loi anglaise promulguée par le Parlement de Westminster en 1701, qui garantissait la succession de la couronne d'Angleterre aux membres de la famille protestante de Hanovre",
         "img": ""
     },
     {
         "year": "19 mars 1702 ",
-        "name": "",
-        "desc": " Le roi Guillaume III meurt et sa belle-sœur Anne lui succède en tant que reine.",
+        "name": "Début du règne d'Anne",
+        "desc": "Le roi Guillaume III meurt et sa belle-sœur Anne lui succède en tant que reine.",
         "img": ""
     },
     {
         "year": "4 août 1704 ",
-        "name": "",
+        "name": "Prise de Gibraltar",
         "desc": " Gibraltar est pris par les flottes anglais et hollandaises combinées sous le commandement de l'amiral George Rooke.",
         "img": ""
     },
     {
         "year": "1704 ",
-        "name": "",
-        "desc": " Une armée anglaise et hollandaise sous le commandement de John Churchill, 1er duc de Marlborough, vainc l'armée de Louis XIV à Blindheim, en Bavière (bataille de Blenheim).",
+        "name": "Bataille de Blenheim",
+        "desc": " Une armée anglaise et hollandaise sous le commandement de John Churchill, 1er duc de Marlborough, vainc l'armée de Louis XIV à Blindheim, en Bavière.",
         "img": ""
     },
     {
         "year": "1707 ",
-        "name": "",
-        "desc": " L'Acte d'Union unit l'Angleterre et l'Écosse en tant que Royaume de Grande-Bretagne.",
+        "name": "The Union Act",
+        "desc": "L'Acte d'Union unit l'Angleterre et l'Écosse en tant que Royaume de Grande-Bretagne.",
         "img": ""
     },
     {
         "year": "1708 ",
-        "name": "",
-        "desc": " Guerre de succession espagnole - invasion française avortée avec le prétendant jacobite James Francis Edward Stuart.",
+        "name": "Guerre de succession espagnole",
+        "desc": "Invasion française avortée avec le prétendant jacobite James Francis Edward Stuart.",
         "img": ""
     },
     {
         "year": "1713 ",
-        "name": "",
-        "desc": " la paix d'Utrecht.",
+        "name": "Traités d'Utrecht",
+        "desc": "Les traités d'Utrecht sont deux traités de paix signés en 1713 qui mirent fin à la guerre de Succession d'Espagne. Le premier fut signé à Utrecht le 11 avril entre le royaume de France et le royaume de Grande-Bretagne, le second fut signé à Utrecht le 13 juillet entre l'Espagne et la Grande-Bretagne.",
         "img": ""
     },
     {
         "year": "1er août 1714 ",
-        "name": "",
-        "desc": " la reine Anne meurt et le roi George Ier lui succède ; début de la dynastie des Hanovre.",
+        "name": "Début du règne de George Ier",
+        "desc": "La reine Anne meurt et le roi George Ier lui succède ; début de la dynastie des Hanovre.",
         "img": ""
     },
     {
-        "year": "1715 ",
-        "name": "",
-        "desc": " Rébellion jacobite.",
+        "year": "1688",
+        "name": "Début des Rébellions jacobites",
+        "desc": "Les rébellions jacobites (ou révoltes jacobites) sont une série de soulèvements, de rébellions et de guerres s'étant déroulées dans les îles Britanniques (en Grande-Bretagne et en Irlande) entre 1688 et 1746. Leur objectif commun était de ramener Jacques Stuart, VII d'Écosse et II d'Angleterre (le dernier roi catholique de la monarchie britannique), et, plus tard, ses descendants de la maison Stuart, sur le trône dont ils ont été privés par le Parlement après la Glorieuse Révolution de 1688.",
+        "img": ""
+    },
+	{
+        "year": "1746",
+        "name": "Fin des Rébellions jacobites",
+        "desc": "Les rébellions jacobites (ou révoltes jacobites) sont une série de soulèvements, de rébellions et de guerres s'étant déroulées dans les îles Britanniques (en Grande-Bretagne et en Irlande) entre 1688 et 1746. Leur objectif commun était de ramener Jacques Stuart, VII d'Écosse et II d'Angleterre (le dernier roi catholique de la monarchie britannique), et, plus tard, ses descendants de la maison Stuart, sur le trône dont ils ont été privés par le Parlement après la Glorieuse Révolution de 1688.",
         "img": ""
     },
     {
         "year": "1716 ",
-        "name": "",
-        "desc": " le Disarming Act (en) tente d'assurer la paix des Highlands écossais.",
-        "img": ""
-    },
-    {
-        "year": "1719 ",
-        "name": "",
-        "desc": " Tentative d'invasion espagnole pour soutenir les jacobites - la flotte en route pour l'Angleterre est dispersée par des orages, les troupes débarquent en Écosse et sont vaincues à la bataille de Glen Shiel.",
+        "name": "Disarming Act",
+        "desc": "Le Disarming Act tente d'assurer la paix des Highlands écossais.",
         "img": ""
     },
     {
         "year": "1720 ",
-        "name": "",
-        "desc": " Effondrement de la Compagnie des mers du Sud, le South Sea Bubble. Il se traduit par un krach boursier à Londres dans lequel la dépréciation de la valeur moyenne en stock est c. 98 %.",
+        "name": "Effondrement du South Sea Bubble",
+        "desc": "Effondrement de la Compagnie des mers du Sud, le South Sea Bubble. Il se traduit par un krach boursier à Londres dans lequel la dépréciation de la valeur moyenne en stock est c. 98 %.",
         "img": ""
     },
     {
         "year": "1721 ",
-        "name": "",
-        "desc": " le whig Robert Walpole, qui occupe une place prééminente dans le gouvernement comme Premier lord du Trésor, est traditionnellement considéré comme le premier détenteur du titre de premier ministre",
+        "name": "1er 1er Ministre",
+        "desc": "'First'. Le whig Robert Walpole, qui occupe une place prééminente dans le gouvernement comme Premier lord du Trésor, est traditionnellement considéré comme le premier détenteur du titre de premier ministre",
         "img": ""
     },
     {
         "year": "11 juin 1727 ",
-        "name": "",
-        "desc": " Le roi George I meurt et son fils George II lui succède en tant que roi.",
+        "name": "Début du règne de George II",
+        "desc": "Le roi George I meurt et son fils George II lui succède en tant que roi.",
         "img": ""
     },
     {
         "year": "23 octobre 1739 ",
-        "name": "",
-        "desc": " Guerre de l'oreille de Jenkins - Le premier ministre Robert Walpole déclare la guerre contre l'Espagne.",
+        "name": "Guerre de l'oreille de Jenkins",
+        "desc": "Le premier ministre Robert Walpole déclare la guerre contre l'Espagne.",
         "img": ""
     },
     {
         "year": "1742 ",
-        "name": "",
-        "desc": " le 16 février, le comte de Wilmington succède à Walpole comme chef du gouvernement.",
+        "name": "2nd 1er Ministre",
+        "desc": "Le 16 février, le comte de Wilmington succède à Walpole comme chef du gouvernement.",
         "img": ""
     },
     {
         "year": "1743 ",
-        "name": "",
-        "desc": "\n\nGuerre de Succession d'Autriche - ouverte, mais non officielle, hostilités entre le Royaume de Grande-Bretagne et la France.\nle 27 août, Henry Pelham devient chef du gouvernement.\nle 13 septembre, l'Angleterre signe le Traité de Worms avec l'Autriche et la Sardaigne.\n\n",
+        "name": "Guerre de Succession d'Autriche",
+        "desc": "Ouverte, mais non officielle, hostilités entre le Royaume de Grande-Bretagne et la France.",
         "img": ""
     },
-    {
-        "year": "1744 ",
-        "name": "",
-        "desc": " tentative d'invasion française à grande échelle sur le sud de l'Angleterre avec Charles Édouard Stuart arrêtée par des tempêtes, la France déclare la guerre.",
+	
+	{
+        "year": "1743 ",
+        "name": "Traité de Worms",
+        "desc": "Le 13 septembre, l'Angleterre signe le Traité de Worms avec l'Autriche et la Sardaigne.",
         "img": ""
     },
     {
         "year": "1745 ",
-        "name": "",
-        "desc": " la Grande-Bretagne et ses alliés perdent la Bataille de Fontenoy dans les Flandres.",
+        "name": "Bataille de Fontenoy",
+        "desc": "La Grande-Bretagne et ses alliés perdent la Bataille de Fontenoy dans les Flandres.",
         "img": ""
     },
     {
         "year": "21 septembre 1745 ",
-        "name": "",
-        "desc": " Bataille de Prestonpans.",
-        "img": ""
-    },
-    {
-        "year": "1745 ",
-        "name": "",
-        "desc": " rébellion jacobite.",
+        "name": "Bataille de Prestonpans",
+        "desc": "La bataille de Prestonpans, également connue sous le nom de bataille de Gladsmuir, est le premier combat significatif de la seconde rébellion jacobite. Elle a lieu à Prestonpans, dans l'East Lothian, en Écosse, le 21 septembre 1745. L'armée jacobite de Jacques François Stuart, commandée par son fils, Charles Édouard Stuart défait l'armée hanovrienne de George II sous les ordres de Sir John Cope.",
         "img": ""
     },
     {
         "year": "1746 ",
-        "name": "",
-        "desc": " L'Act of Proscription (en) vise à éliminer les clans écossais, le kilt est banni.",
+        "name": "The Act of Proscription",
+        "desc": "L'Act of Proscription vise à éliminer les clans écossais, le kilt est banni.",
         "img": ""
     },
     {
         "year": "16 avril 1746 ",
-        "name": "",
-        "desc": " la Bataille de Culloden met une fin effective au soulèvement jacobite.",
+        "name": "Bataille de Culloden",
+        "desc": "La Bataille de Culloden met une fin effective au soulèvement jacobite.",
         "img": ""
     },
     {
-        "year": "1754 - 1763 ",
-        "name": "",
-        "desc": " French and Indian War dans les colonies anglaises d'Amérique du Nord.",
-        "img": ""
-    },
-    {
-        "year": "1754 ",
-        "name": "",
-        "desc": " le 16 mars, à la mort de son frère Henry, Thomas Pelham-Holles lui succède comme premier ministre.",
-        "img": ""
-    },
-    {
-        "year": "1755 ",
-        "name": "",
-        "desc": " le docteur Samuel Johnson publie son Dictionnaire de la langue anglaise.",
-        "img": ""
-    },
-    {
-        "year": "1760 ",
-        "name": "",
-        "desc": " le roi George II meurt et son petit-fils le roi George III lui succède.",
+        "year": "1754",
+        "name": "Début de la Guerre de la Conquête",
+        "desc": "La guerre de la Conquête est le nom donné au théâtre militaire nord-américain avant et pendant la guerre de Sept Ans. Aux États-Unis, on désigne fréquemment ce conflit sous l'appellation de French and Indian War (« guerre contre les Français et les Indiens »). Elle voit s'affronter les Français, leurs milices de la Nouvelle-France et leurs alliés amérindiens d'un côté, et les Britanniques, leurs milices américaines et leurs alliés iroquois de l'autre, pour la domination coloniale de l'Amérique du Nord.",
         "img": ""
     },
     {
         "year": "1763 ",
-        "name": "",
-        "desc": " le Traité de Paris, qui met fin à la guerre de Sept Ans, jette les fondations du futur empire britannique.",
+        "name": "Fin de la Guerre de la Conquête",
+        "desc": "La guerre de la Conquête est le nom donné au théâtre militaire nord-américain avant et pendant la guerre de Sept Ans. Aux États-Unis, on désigne fréquemment ce conflit sous l'appellation de French and Indian War (« guerre contre les Français et les Indiens »). Elle voit s'affronter les Français, leurs milices de la Nouvelle-France et leurs alliés amérindiens d'un côté, et les Britanniques, leurs milices américaines et leurs alliés iroquois de l'autre, pour la domination coloniale de l'Amérique du Nord.",
+        "img": ""
+    },
+    {
+        "year": "1755 ",
+        "name": "Dictionnaire de la langue anglaise de Samuel Johnson",
+        "desc": "Le docteur Samuel Johnson publie son Dictionnaire de la langue anglaise.",
+        "img": ""
+    },
+    {
+        "year": "1760 ",
+        "name": "Début du règne de George III",
+        "desc": "Le roi George II meurt et son petit-fils le roi George III lui succède.",
+        "img": ""
+    },
+    {
+        "year": "1763 ",
+        "name": "Traité de Paris",
+        "desc": "Le Traité de Paris, qui met fin à la guerre de Sept Ans, jette les fondations du futur empire britannique.",
         "img": ""
     },
     {
         "year": "1773 ",
-        "name": "",
-        "desc": " la Boston Tea Party en Amérique du Nord laisse entrevoir la révolte contre la domination britannique.",
+        "name": "Boston Tea Party",
+        "desc": "La Boston Tea Party en Amérique du Nord laisse entrevoir la révolte contre la domination britannique.",
         "img": ""
     },
     {
         "year": "1776 ",
-        "name": "",
-        "desc": "\n\nle 10 janvier, Thomas Paine prend parti pour les insurgés américains dans son pamphlet Le Sens commun.\nle 4 juillet, Déclaration d'indépendance des États-Unis d'Amérique.\n\n",
+        "name": "Déclaration d'indépendance des États-Unis d'Amérique",
+        "desc": "Le 4 juillet, la Déclaration d'indépendance des États-Unis d'Amérique est signée.",
         "img": ""
     },
     {
         "year": "1781 ",
-        "name": "",
-        "desc": " les insurgés américains et leurs alliés français remportent une importante victoire sur les troupes britanniques à la bataille de Yorktown.",
+        "name": "Bataille de Yorktown",
+        "desc": "Les insurgés américains et leurs alliés français remportent une importante victoire sur les troupes britanniques à la bataille de Yorktown.",
         "img": ""
     },
     {
         "year": "1783 ",
-        "name": "",
-        "desc": "\n\nle 3 septembre, par le Traité de Paris, la Grande-Bretagne reconnaît l'indépendance de ses treize colonies d'Amérique du Nord.\nle 19 décembre, William Pitt le Jeune devient permier ministre.\n\n",
+        "name": "Traité de Paris",
+        "desc": "Le 3 septembre, par le Traité de Paris, la Grande-Bretagne reconnaît l'indépendance de ses treize colonies d'Amérique du Nord",
         "img": ""
     },
     {
         "year": "1788 ",
-        "name": "",
-        "desc": " le 26 janvier, établissement d'une première colonie pénale britannique de Nouvelle-Galles du Sud en Australie.",
+        "name": "première colonie pénale britannique en Australie",
+        "desc": "Le 26 janvier, établissement d'une première colonie pénale britannique de Nouvelle-Galles du Sud en Australie.",
         "img": ""
     },
     {
         "year": "1795 ",
-        "name": "",
-        "desc": " première occupation de la colonie néerlandaise du Cap par les Britanniques.",
+        "name": "1er occupation du Cap",
+        "desc": "Première occupation de la colonie néerlandaise du Cap par les Britanniques.",
         "img": ""
     },
     {
         "year": "1798 ",
-        "name": "",
-        "desc": " Bataille du Nil.",
+        "name": "Bataille du Nil.",
+        "desc": "La bataille d'Aboukir fut une importante bataille navale qui opposa les flottes britannique et française dans la baie d'Aboukir, près d'Alexandrie en Égypte entre le 1er et le 2 août 1798.",
         "img": ""
     },
     {
         "year": "1799 ",
-        "name": "",
-        "desc": " le 12 juillet, le Combination Act est une loi répressive qui rend illégale la formation d'associations ouvrières.",
+        "name": "The Combination Act",
+        "desc": "Le 12 juillet, le Combination Act est une loi répressive qui rend illégale la formation d'associations ouvrières.",
         "img": ""
     },
     {
         "year": "1800 ",
-        "name": "",
-        "desc": "\n\nl'Acte d'Union (1800) unit l'Irlande au royaume de Grande-Bretagne.\nle 4 septembre, les Britanniques s'emparent de l'île de Malte.\n\n",
+        "name": "Union Acte",
+        "desc": "L'Acte d'Union unit l'Irlande au royaume de Grande-Bretagne.",
+        "img": ""
+    },,
+    {
+        "year": "1800 ",
+        "name": "Prise de Malte",
+        "desc": "Le 4 septembre, les Britanniques s'emparent de l'île de Malte.\n\n",
         "img": ""
     },
     {
         "year": "1802 ",
-        "name": "",
+        "name": "Traité d'Amiens",
         "desc": " Conclusion du Traité d'Amiens qui rétablit la paix avec la France.",
         "img": ""
     },
     {
-        "year": "1804 ",
-        "name": "",
-        "desc": " William Pitt le Jeune devient premier ministre pour la deuxième fois",
-        "img": ""
-    },
-    {
         "year": "1805 ",
-        "name": "",
-        "desc": " le 21 octobre, bataille de Trafalgar.",
+        "name": "Bataille de Trafalgar",
+        "desc": "La bataille de Trafalgar oppose le 21 octobre 1805 la flotte franco-espagnole sous les ordres du vice-amiral Villeneuve, à la flotte britannique commandée par le vice admiral Nelson.",
         "img": ""
     },
     {
         "year": "1806 ",
-        "name": "",
-        "desc": " le 11 février, William Grenville prend la tête d'un gouvernement de coalition connu sous le nom de Ministère de tous les talents'.",
-        "img": ""
-    },
-    {
-        "year": "1807 ",
-        "name": "",
-        "desc": " le 31 mars, le duc de Portland redevient premier ministre.",
+        "name": "Ministère de tous les talents",
+        "desc": "Le 11 février, William Grenville prend la tête d'un gouvernement de coalition connu sous le nom de Ministère de tous les talents'.",
         "img": ""
     },
     {
         "year": "1808 ",
-        "name": "",
+        "name": "Début des interventions anti-Napoléon",
         "desc": " début de l'intervention des troupes britanniques dans la péninsule ibérique, au Portugal puis en Espagne, pour en chasser les troupes de Napoléon.",
         "img": ""
     },
     {
-        "year": "1809 ",
-        "name": "",
-        "desc": " le 4 octobre, Spencer Perceval accède au poste de premier ministre.",
-        "img": ""
-    },
-    {
         "year": "1811 ",
-        "name": "",
-        "desc": "\n\nle 5 février, par le Regency Act, le prince de Galles, futur George IV, devient prince-régent, lorsque son père George III sombre progressivement dans la démence.\nau moi de mars, dans plusieurs régions industrielles se produisent les premières émeutes luddites.\n\n",
+        "name": "The Regency Act",
+        "desc": "Le 5 février, par le Regency Act, le prince de Galles, futur George IV, devient prince-régent, lorsque son père George III sombre progressivement dans la démence.\nAu moi de mars, dans plusieurs régions industrielles se produisent les premières émeutes luddites.",
         "img": ""
     },
     {
         "year": "1812 ",
-        "name": "",
-        "desc": "\n\nle 20 mars, dans le cadre de la répression du mouvement luddite, le Destruction of Stocking Frames, etc. Act rend la destruction de métiers à tisser passible de la peine capitale.\nle 8 juin, après l'assassinat de Perceval, le comte de Liverpool devient premier ministre.\nen juin, début de la guerre anglo-américaine.\n\n",
+        "name": "Destruction of Stocking Frames Act",
+        "desc": "Le 20 mars, dans le cadre de la répression du mouvement luddite, le Destruction of Stocking Frames, etc. Act rend la destruction de métiers à tisser passible de la peine capitale",
+        "img": ""
+    },
+    {
+        "year": "1812 ",
+        "name": "Début de la guerre anglo-américaine",
+        "desc": "La guerre anglo-américaine de 1812 a opposé les États-Unis au Royaume-Uni, entre juin 1812 et février 1815. Cette guerre est aussi connue sous les noms de guerre de 1812, de seconde guerre d’indépendance, voire plus rarement de guerre américano-britannique.",
         "img": ""
     },
     {
@@ -338,7 +327,7 @@
     {
         "year": "1829 ",
         "name": "",
-        "desc": " le 13 avril, émancipation des catholiques britanniques grâce au Roman Catholic Relief Act.",
+        "desc": "Le 13 avril, émancipation des catholiques britanniques grâce au Roman Catholic Relief Act.",
         "img": ""
     },
     {
@@ -350,31 +339,31 @@
     {
         "year": "1832 ",
         "name": "",
-        "desc": " le 4 juin, réforme électorale en Grande-Bretagne.",
+        "desc": "Le 4 juin, réforme électorale en Grande-Bretagne.",
         "img": ""
     },
     {
         "year": "1833 ",
         "name": "",
-        "desc": " l'esclavage est aboli dans les territoires britanniques par le Slavery Abolition Act.",
+        "desc": "L'esclavage est aboli dans les territoires britanniques par le Slavery Abolition Act.",
         "img": ""
     },
     {
         "year": "1834 ",
         "name": "",
-        "desc": " le 18 décembre, manifeste de Tamworth, déclaration de politique générale publié par le chef des tories Robert Peel. Il annonce son acceptation de la réforme électorale de 1832 et reconnaît la nécessité de procéder aux réformes nécessaires.",
+        "desc": "Le 18 décembre, manifeste de Tamworth, déclaration de politique générale publié par le chef des tories Robert Peel. Il annonce son acceptation de la réforme électorale de 1832 et reconnaît la nécessité de procéder aux réformes nécessaires.",
         "img": ""
     },
     {
         "year": "1836 ",
         "name": "",
-        "desc": " le 19 février, pose de la première pierre du nouveau parlement de Westminster.",
+        "desc": "Le 19 février, pose de la première pierre du nouveau parlement de Westminster.",
         "img": ""
     },
     {
         "year": "1837 ",
         "name": "",
-        "desc": " le 20 juin, mort de Guillaume IV et avènement de Victoria.",
+        "desc": "Le 20 juin, mort de Guillaume IV et avènement de Victoria.",
         "img": ""
     },
     {
@@ -398,7 +387,7 @@
     {
         "year": "1841 ",
         "name": "",
-        "desc": " le 29 janvier, occupation de Hong Kong par l'Angleterre.",
+        "desc": "Le 29 janvier, occupation de Hong Kong par l'Angleterre.",
         "img": ""
     },
     {
@@ -410,7 +399,7 @@
     {
         "year": "1846 ",
         "name": "",
-        "desc": " le 23 mai, abrogation des Corn Laws.",
+        "desc": "Le 23 mai, abrogation des Corn Laws.",
         "img": ""
     },
     {
@@ -422,7 +411,7 @@
     {
         "year": "1848 ",
         "name": "",
-        "desc": " le 10 avril, interdiction de la manifestation chartiste.",
+        "desc": "Le 10 avril, interdiction de la manifestation chartiste.",
         "img": ""
     },
     {
@@ -446,13 +435,13 @@
     {
         "year": "1855 ",
         "name": "",
-        "desc": " Le 6 février, Lord Palmerston devient premier ministre.",
+        "desc": "Le 6 février, Lord Palmerston devient premier ministre.",
         "img": ""
     },
     {
         "year": "1856 ",
         "name": "",
-        "desc": " Le 30 mars, leTraité de Paris met fin à la guerre de Crimée.",
+        "desc": "Le 30 mars, leTraité de Paris met fin à la guerre de Crimée.",
         "img": ""
     },
     {
@@ -464,7 +453,7 @@
     {
         "year": "1859 ",
         "name": "",
-        "desc": " Le 6 juin, fondation du {Parti libéral.",
+        "desc": "Le 6 juin, fondation du {Parti libéral.",
         "img": ""
     },
     {
@@ -476,7 +465,7 @@
     {
         "year": "1863 ",
         "name": "",
-        "desc": " Le 10 janvier, ouverture de la première ligne du métro de Londres.",
+        "desc": "Le 10 janvier, ouverture de la première ligne du métro de Londres.",
         "img": ""
     },
     {
@@ -494,7 +483,7 @@
     {
         "year": "1869 ",
         "name": "",
-        "desc": " l'église anglicane d'Irlande cesse d'être l'église officielle de l'île.",
+        "desc": "L'église anglicane d'Irlande cesse d'être l'église officielle de l'île.",
         "img": ""
     },
     {
@@ -524,7 +513,7 @@
     {
         "year": "1877 ",
         "name": "",
-        "desc": " la reine Victoria prend le titre d’impératrice des Indes.",
+        "desc": "La reine Victoria prend le titre d’impératrice des Indes.",
         "img": ""
     },
     {
@@ -542,7 +531,7 @@
     {
         "year": "1882 ",
         "name": "",
-        "desc": " l’Égypte passe sous protectorat britannique. Les Anglais s’assurent ainsi du contrôle de la route de Suez.",
+        "desc": "L’Égypte passe sous protectorat britannique. Les Anglais s’assurent ainsi du contrôle de la route de Suez.",
         "img": ""
     },
     {
@@ -566,7 +555,7 @@
     {
         "year": "1893 ",
         "name": "",
-        "desc": " le 8 septembre, le rejet du deuxième Home Rule Bill par la chambre des Lords constitue une défaite pour Gladstone.",
+        "desc": "Le 8 septembre, le rejet du deuxième Home Rule Bill par la chambre des Lords constitue une défaite pour Gladstone.",
         "img": ""
     },
     {
@@ -578,7 +567,7 @@
     {
         "year": "1895 ",
         "name": "",
-        "desc": " le 25 juin, après la défaite des libéraux aux élections, Lord Salisbury prend la tête d'un gouvernement de coalition avec le Parti libéral unioniste.",
+        "desc": "Le 25 juin, après la défaite des libéraux aux élections, Lord Salisbury prend la tête d'un gouvernement de coalition avec le Parti libéral unioniste.",
         "img": ""
     },
     {
@@ -620,7 +609,7 @@
     {
         "year": "1904 ",
         "name": "",
-        "desc": " l'entente cordiale avec la France menée par Delcassé tente de mettre un terme aux rivalités coloniales entre les deux pays.",
+        "desc": "L'entente cordiale avec la France menée par Delcassé tente de mettre un terme aux rivalités coloniales entre les deux pays.",
         "img": ""
     },
     {
@@ -644,7 +633,7 @@
     {
         "year": "1908 ",
         "name": "",
-        "desc": " le 5 avril, le libéral Herbert Henry Asquith devient premier ministre après la démission de Henry Campbell-Bannerman pour raisons de santé.",
+        "desc": "Le 5 avril, le libéral Herbert Henry Asquith devient premier ministre après la démission de Henry Campbell-Bannerman pour raisons de santé.",
         "img": ""
     },
     {
@@ -656,7 +645,7 @@
     {
         "year": "1910 ",
         "name": "",
-        "desc": " le 6 mai, George V succède à son père Édouard VII.",
+        "desc": "Le 6 mai, George V succède à son père Édouard VII.",
         "img": ""
     },
     {
@@ -680,25 +669,25 @@
     {
         "year": "1913 ",
         "name": "",
-        "desc": " le Royaume-Uni n’est plus la première nation industrielle. L’Allemagne la rattrape dans le commerce mondial.",
+        "desc": "Le Royaume-Uni n’est plus la première nation industrielle. L’Allemagne la rattrape dans le commerce mondial.",
         "img": ""
     },
     {
         "year": "4 août 1914 ",
         "name": "",
-        "desc": " la Grande-Bretagne déclare la guerre à l'Allemagne, qui a violé la neutralité de la Belgique.",
+        "desc": "La Grande-Bretagne déclare la guerre à l'Allemagne, qui a violé la neutralité de la Belgique.",
         "img": ""
     },
     {
         "year": "1916 ",
         "name": "",
-        "desc": " le 16 décembre, David Lloyd George remplace son rival Herbert Henry Asquith à la tête d'un gouvernement de coalition.",
+        "desc": "Le 16 décembre, David Lloyd George remplace son rival Herbert Henry Asquith à la tête d'un gouvernement de coalition.",
         "img": ""
     },
     {
         "year": "7 février 1918 ",
         "name": "",
-        "desc": " le Representation of the People Act instaure le suffrage universel masculin et un suffrage capacitaire et censitaire pour les femmes de plus de trente ans",
+        "desc": "Le Representation of the People Act instaure le suffrage universel masculin et un suffrage capacitaire et censitaire pour les femmes de plus de trente ans",
         "img": ""
     },
     {
@@ -770,13 +759,13 @@
     {
         "year": "1940\n\n ",
         "name": "",
-        "desc": " le 10 mai 1940  Winston Churchill succède à Chamberlain comme premier ministre et forme un gouvernement d'union nationale.\nen juillet, début de la bataille d'Angleterre\n\n",
+        "desc": "Le 10 mai 1940  Winston Churchill succède à Chamberlain comme premier ministre et forme un gouvernement d'union nationale.\nen juillet, début de la bataille d'Angleterre\n\n",
         "img": ""
     },
     {
         "year": "26 juillet 1945 ",
         "name": "",
-        "desc": " le travailliste Clement Attlee succède à Winston Churchill comme premier ministre et s'engage dans une politique de réformes.",
+        "desc": "Le travailliste Clement Attlee succède à Winston Churchill comme premier ministre et s'engage dans une politique de réformes.",
         "img": ""
     },
     {
@@ -824,7 +813,7 @@
     {
         "year": "1956 ",
         "name": "",
-        "desc": " l'expédition de Suez menée par la Grande-Bretagne et la France, est un fiasco.",
+        "desc": "L'expédition de Suez menée par la Grande-Bretagne et la France, est un fiasco.",
         "img": ""
     },
     {
@@ -836,7 +825,7 @@
     {
         "year": "1960 ",
         "name": "",
-        "desc": " la colonie britannique de Chypre devient indépendante.",
+        "desc": "La colonie britannique de Chypre devient indépendante.",
         "img": ""
     },
     {
@@ -860,7 +849,7 @@
     {
         "year": "1965 ",
         "name": "",
-        "desc": " le Murder (Abolition of Death Penalty) Act abolit la peine de mort pour meurtre en Angleterre, en Écosse et au Pays de Galles",
+        "desc": "Le Murder (Abolition of Death Penalty) Act abolit la peine de mort pour meurtre en Angleterre, en Écosse et au Pays de Galles",
         "img": ""
     },
     {
@@ -878,13 +867,13 @@
     {
         "year": "1969 ",
         "name": "",
-        "desc": " l'âge du droit de vote est abaissé à 18 ans.",
+        "desc": "L'âge du droit de vote est abaissé à 18 ans.",
         "img": ""
     },
     {
         "year": "1970 ",
         "name": "",
-        "desc": " le 19 juin, le conservateur Edward Heath succède à Harold Wilson comme premier ministre",
+        "desc": "Le 19 juin, le conservateur Edward Heath succède à Harold Wilson comme premier ministre",
         "img": ""
     },
     {
@@ -896,7 +885,7 @@
     {
         "year": "1974 ",
         "name": "",
-        "desc": " le 4 mars, Harold Wilson redevient premier ministre.",
+        "desc": "Le 4 mars, Harold Wilson redevient premier ministre.",
         "img": ""
     },
     {
@@ -914,31 +903,31 @@
     {
         "year": "1984-1985 ",
         "name": "",
-        "desc": " la longue grève des mineurs se termine par la défaite des syndicats et constitue une victoire pour Margaret Thatcher.",
+        "desc": "La longue grève des mineurs se termine par la défaite des syndicats et constitue une victoire pour Margaret Thatcher.",
         "img": ""
     },
     {
         "year": "1990 ",
         "name": "",
-        "desc": " Le 22 novembre, Margaret Thatcher, lâchée par une partie du parti conservateur, démissionne. Le 27, John Major la remplace comme premier ministre.",
+        "desc": "Le 22 novembre, Margaret Thatcher, lâchée par une partie du parti conservateur, démissionne. Le 27, John Major la remplace comme premier ministre.",
         "img": ""
     },
     {
         "year": "1991 ",
         "name": "",
-        "desc": " Le 7 février, attaque au mortier du 10 Downing Street par l'IRA.",
+        "desc": "Le 7 février, attaque au mortier du 10 Downing Street par l'IRA.",
         "img": ""
     },
     {
         "year": "1992 ",
         "name": "",
-        "desc": " Le 16 septembre, connu sous le nom de «mercredi noir», en spéculant sur la dévaluation de la livre, le financier George Soros contraint le gouvernement britannique à quitter le mécanisme de taux de change européen",
+        "desc": "Le 16 septembre, connu sous le nom de «mercredi noir», en spéculant sur la dévaluation de la livre, le financier George Soros contraint le gouvernement britannique à quitter le mécanisme de taux de change européen",
         "img": ""
     },
     {
         "year": "1993 ",
         "name": "",
-        "desc": " le gouvernement lance la privatisation des chemins de fer.",
+        "desc": "Le gouvernement lance la privatisation des chemins de fer.",
         "img": ""
     },
     {
@@ -956,25 +945,25 @@
     {
         "year": "1999 ",
         "name": "",
-        "desc": " le House of Lords Act réforme profondément la composition de la Chambre des Lords.",
+        "desc": "Le House of Lords Act réforme profondément la composition de la Chambre des Lords.",
         "img": ""
     },
     {
         "year": "2005 ",
         "name": "",
-        "desc": " le 7 juillet, la ville de Londres est victime d'une série d'attentats.",
+        "desc": "Le 7 juillet, la ville de Londres est victime d'une série d'attentats.",
         "img": ""
     },
     {
         "year": "2007 ",
         "name": "",
-        "desc": " le 27 juin, Tony blair, qui fait l'objet de critiques à l'intérieur de son propre parti, démissionne de son poste de premier ministre. Il est remplacé par Gordon Brown.",
+        "desc": "Le 27 juin, Tony blair, qui fait l'objet de critiques à l'intérieur de son propre parti, démissionne de son poste de premier ministre. Il est remplacé par Gordon Brown.",
         "img": ""
     },
     {
         "year": "2010 ",
         "name": "",
-        "desc": " Les travaillistes perdent les élections. Gordon Brown démissionne et cède la place au conservateur David Cameron qui constitue un gouvernement de coalition avec les Libéraux-démocrates.",
+        "desc": "Les travaillistes perdent les élections. Gordon Brown démissionne et cède la place au conservateur David Cameron qui constitue un gouvernement de coalition avec les Libéraux-démocrates.",
         "img": ""
     },
     {
@@ -986,19 +975,19 @@
     {
         "year": "2013 ",
         "name": "",
-        "desc": " le Marriage (Same Sex Couples) Act ouvre le mariage aux personnes de même sexe en Angleterre et au Pays de Galles.",
+        "desc": "Le Marriage (Same Sex Couples) Act ouvre le mariage aux personnes de même sexe en Angleterre et au Pays de Galles.",
         "img": ""
     },
     {
         "year": "2014 ",
         "name": "",
-        "desc": " le 18 septembre, le non l'emporte lors du Référendum sur l'indépendance de l'Écosse.",
+        "desc": "Le 18 septembre, le non l'emporte lors du Référendum sur l'indépendance de l'Écosse.",
         "img": ""
     },
     {
         "year": "2016 ",
         "name": "",
-        "desc": " le 23 juin, référendum sur l'appartenance du Royaume-Uni à l'Union européenne.",
+        "desc": "Le 23 juin, référendum sur l'appartenance du Royaume-Uni à l'Union européenne.",
         "img": ""
     }
 ]
