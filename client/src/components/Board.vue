@@ -64,72 +64,16 @@
 </template>
 
 <script>
+import ApiLoader from '@/control/apiLoader';
+
 /* global swal */
 export default {
 	name: 'Board',
 	data () {
 		return {
 			pseudo: 'Bob',
-			deck: {
-				'id': '5ad75b374bc0050951c43098',
-				'name': 'Le deck de base'
-			},
-			cards: [
-				{
-					'year': '2000',
-					'id': '5ad75b374bc0050951c43096',
-					'desc': 'La carte 1',
-					'name': 'carte1'
-				},
-				{
-					'year': '1800',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 2',
-					'name': 'carte2'
-				},
-				{
-					'year': '1700',
-					'id': '5ad75b374bc0050951c43096',
-					'desc': 'La carte 3',
-					'name': 'carte3'
-				},
-				{
-					'year': '1600',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 4',
-					'name': 'carte4'
-				},
-				{
-					'year': '1500',
-					'id': '5ad75b374bc0050951c43096',
-					'desc': 'La carte 5',
-					'name': 'carte5'
-				},
-				{
-					'year': '1400',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 6',
-					'name': 'carte6'
-				},
-				{
-					'year': '1300',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 7',
-					'name': 'carte7'
-				},
-				{
-					'year': '1200',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 8',
-					'name': 'carte8'
-				},
-				{
-					'year': '1000',
-					'id': '5ad75b374bc0050951c43097',
-					'desc': 'La carte 9',
-					'name': 'carte9'
-				}
-			],
+			deck: { },
+			cards: [ ],
 			drawable: [ ],
 			hand: [ ],
 			board: [ ],
@@ -227,16 +171,30 @@ export default {
 				}
 			}
 			this.unselectCard();
+		},
+		asyncLoad(url){
+			let script = document.createElement('script');
+			script.async = true;
+			script.src = url;
+			document.head.appendChild(script);
 		}
 	},
 	created () {
-		let script = document.createElement('script');
-		script.async = true;
 
-		script.src = 'https://pro.fontawesome.com/releases/v5.0.8/js/all.js';
-		document.head.appendChild(script);
+		this.asyncLoad('https://pro.fontawesome.com/releases/v5.0.8/js/all.js');
+
 
 		// retrieve cards from db
+
+		this.deck.id = "5af5e5f4f435bb5d8d2bbdaf" ; // Histoire de l'angleterre
+
+		ApiLoader.get(`deck/${this.deck.id}`)
+			.then(response => {
+				this.messages = response.data;
+			})
+			.catch(e => {
+				this.errors.push(e);
+			});
 		// this.cards = api.getCards()
 
 		// fill the draw deck
@@ -255,7 +213,7 @@ export default {
 			}
 		}
 
-		shuffleArray(this.drawable);
+		//shuffleArray(this.drawable);
 
 		if (this.drawable.length < 3) {
 			swal({ icon: 'error',
