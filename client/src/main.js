@@ -4,7 +4,6 @@ import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import App from './App';
 import router from './control/routes';
-import swal from 'sweetalert';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';

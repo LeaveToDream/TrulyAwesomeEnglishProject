@@ -64,9 +64,10 @@
 </template>
 
 <script>
-import ApiLoader from '@/control/apiLoader';
+// import ApiLoader from '@/control/apiLoader';
+import swal from 'sweetalert';
+import axios from 'axios';
 
-/* global swal */
 export default {
 	name: 'Board',
 	data () {
@@ -172,7 +173,7 @@ export default {
 			}
 			this.unselectCard();
 		},
-		asyncLoad(url){
+		asyncLoad (url) {
 			let script = document.createElement('script');
 			script.async = true;
 			script.src = url;
@@ -180,65 +181,49 @@ export default {
 		}
 	},
 	created () {
-
+		// Load FA5, because thoses guys are awesome
 		this.asyncLoad('https://pro.fontawesome.com/releases/v5.0.8/js/all.js');
 
-
 		// retrieve cards from db
-
-		this.deck.id = "5af5e5f4f435bb5d8d2bbdaf" ; // Histoire de l'angleterre
-
-		ApiLoader.get(`deck/${this.deck.id}`)
+		this.deck.id = '5af5e5f4f435bb5d8d2bbdaf'; // Histoire de l'angleterre
+		// other.deck.id = "5af8aad2f435bb5d8d2bbe02" ;
+		// ApiLoader.get(`deck/${this.deck.id}?shuffle&cards_content`)
+		axios.get('http://omachi.moe:9876/api/deck/5af8aad2f435bb5d8d2bbe02?cards_content&shuffle')
 			.then(response => {
-				this.messages = response.data;
+				this.deck.name = response.data.name;
+				this.cards = response.data.cards;
+
+				// fill the draw deck
+				this.drawable = this.cards;
+
+				if (this.drawable.length < 3) {
+					swal({ icon: 'error',
+						title: 'Sorry',
+						text: 'Sadly, there is not enought card in the draw deck for a game ><.\n Try a different deck if this is not yours, or complete it if this is.'
+					});
+					return;
+				}
+
+				// place 3 cards on the board (fuck it if there is less than 3 cards in the deck, it explodes)
+				for (let i = 0; i < 3; i++) {
+					this.addCardInOrederedDeck(this.board, this.drawable.pop());
+				}
+
+				// make every player draw 4 cards
+				if (this.drawable.length < 4) {
+					swal({ icon: 'error',
+						title: 'Sorry',
+						text: 'Sadly, there is not enought card in the draw deck for a game.\n Try a different deck if this is not yours, or complete it if this is.'
+					});
+					return;
+				}
+				for (let i = 0; i < 4; i++) {
+					this.draw();
+				}
 			})
 			.catch(e => {
 				this.errors.push(e);
 			});
-		// this.cards = api.getCards()
-
-		// fill the draw deck
-		this.drawable = this.cards;
-
-		/**
-		 * Randomize array element order in-place.
-		 * Using Durstenfeld shuffle algorithm.
-		 */
-		function shuffleArray (array) {
-			for (var i = array.length - 1; i > 0; i--) {
-				var j = Math.floor(Math.random() * (i + 1));
-				var temp = array[i];
-				array[i] = array[j];
-				array[j] = temp;
-			}
-		}
-
-		//shuffleArray(this.drawable);
-
-		if (this.drawable.length < 3) {
-			swal({ icon: 'error',
-				title: 'Sorry',
-				text: 'Sadly, there is not enought card in the draw deck for a game ><.\n Try a different deck if this is not yours, or complete it if this is.'
-			});
-			return;
-		}
-
-		// place 3 cards on the board (fuck it if there is less than 3 cards in the deck, it explodes)
-		for (let i = 0; i < 3; i++) {
-			this.addCardInOrederedDeck(this.board, this.drawable.pop());
-		}
-
-		// make every player draw 4 cards
-		if (this.drawable.length < 4) {
-			swal({ icon: 'error',
-				title: 'Sorry',
-				text: 'Sadly, there is not enought card in the draw deck for a game.\n Try a different deck if this is not yours, or complete it if this is.'
-			});
-			return;
-		}
-		for (let i = 0; i < 4; i++) {
-			this.draw();
-		}
 	},
 	computed: {
 		inserting: function () {
