@@ -3,7 +3,6 @@ import sys
 
 api_url = "http://omachi.moe:9876/api/"
 
-
 def upload(nom_deck, cartes):
 
     with requests.session() as session:
@@ -75,5 +74,5 @@ if __name__ == "__main__":
     parser.add_argument(
         "fichier_cartes", help="Le fichier json qui contient les cartes")
     args = parser.parse_args()
-    with open(args.fichier_cartes, "r") as f_cartes:
+    with open(args.fichier_cartes, "r", encoding="utf-8") as f_cartes:
         reponse = upload(args.nom_deck, json.load(f_cartes))
