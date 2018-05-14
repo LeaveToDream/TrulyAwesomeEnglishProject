@@ -18,29 +18,32 @@ Vue.component('tl-board-card', {
 		'desc',
 		'date',
 		'image',
-		'inserting'
+		'inserting',
+		'type'
 	],
 	template: `
-    <div>
-      <button v-b-tooltip="desc">
-        <b-card overlay
-                v-bind:title="name"
-                img-src="https://via.placeholder.com/200x200"
-                v-bind:img-alt="name"
-                img-top
-                tag="card"
-                style="max-width: 20rem;">
-          <p class="card-date">
-            {{ date }}
-          </p>
-        </b-card>
-      </button>
-      <span class="insertingCardArrow" @click="$emit('try-card-at',id)">
-        <span v-show="inserting" class="clickable">
-          <i class="fal fa-2x fa-long-arrow-alt-down"></i>
-        </span>
-      </span>
-    </div>`
+		<div>
+			<button v-b-tooltip="desc"
+							:class="type">
+				<b-card overlay
+								v-bind:title="name"
+								img-src="https://via.placeholder.com/200x200"
+								v-bind:img-alt="name"
+								img-top
+								tag="card"
+								style="max-width: 20rem;">
+					<p class="card-date">
+						{{ date }}
+					</p>
+				</b-card>
+			</button>
+			<span class="insertingCardArrow" @click="$emit('try-card-at',id)">
+				<span v-bind:class="{active:inserting}"
+							class="clickable activable">
+					<i class="fal fa-2x fa-long-arrow-alt-down"></i>
+				</span>
+			</span>
+		</div>`
 });
 
 Vue.component('tl-hand-card', {
@@ -49,21 +52,25 @@ Vue.component('tl-hand-card', {
 		'name',
 		'desc',
 		'date',
-		'image'
+		'image',
+		'selected',
+		'type'
 	],
 	template: `
-    <div>
-      <button v-b-tooltip="desc" @click="$emit('change-selected-card',id)">
-        <b-card overlay
-                v-bind:title="name"
-                img-src="https://via.placeholder.com/200x200"
-                v-bind:img-alt="name"
-                img-top
-                tag="card"
-                style="max-width: 20rem;">
-        </b-card>
-      </button>
-    </div>`
+		<div>
+			<button v-b-popover.hover="desc"
+							v-bind:class="[type, { active: selected }]"
+							@click="$emit('change-selected-card',id)">
+				<b-card overlay
+								v-bind:title="name"
+								img-src="https://via.placeholder.com/200x200"
+								v-bind:img-alt="name"
+								img-top
+								tag="card"
+								style="max-width: 20rem;">
+				</b-card>
+			</button>
+		</div>`
 });
 
 /* eslint-disable no-new */
