@@ -1,5 +1,10 @@
 <template>
 <div id="app" class="container-flex">
+  <div class="loading" v-bind:class="{loaded:loaded}">
+    <div class="img-looping">
+      <i class="fal fa-cog fa-8x fa-spin"></i>
+    </div>
+  </div>
   <div id="board" class="row" v-bind:class="{cemeteryBoard:!activeBoard}">
     <div v-show="activeBoard">
       <div class="firstCard"></div>
@@ -15,9 +20,9 @@
           v-bind:id="i"
           v-bind:name="card.name"
           v-bind:desc="card.desc"
-          v-bind:image="card.image"
+          v-bind:image="getImage(card.type_id)"
           v-bind:date="card.year"
-          v-bind:type="getType(card.type)"
+          v-bind:type="getType(card.type_id)"
           v-bind:inserting="inserting"
           v-on:try-card-at="tryCardAt">
     </tl-board-card>
@@ -28,9 +33,9 @@
           v-bind:id="i"
           v-bind:name="card.name"
           v-bind:desc="card.desc"
-          v-bind:image="card.image"
+          v-bind:image="getImage(card.type_id)"
           v-bind:date="card.year"
-          v-bind:type="getType(card.type)"
+          v-bind:type="getType(card.type_id)"
           v-bind:inserting="false">
     </tl-board-card>
   </div>
@@ -42,11 +47,19 @@
             v-bind:id="i"
             v-bind:name="card.name"
             v-bind:desc="card.desc"
-            v-bind:image="card.image"
-            v-bind:type="getType(card.type)"
+            v-bind:image="getImage(card.type_id)"
+            v-bind:type="getType(card.type_id)"
             v-bind:selected="card.selected"
             v-on:change-selected-card="selectCard">
       </tl-hand-card>
+      <div class="row" v-if="hand.length==0">
+        <div class="hand-home clickable" @click="$router.push('/')">
+          <i class="fal fa-home fa-4x"></i>
+        </div>
+        <div class="hand-home clickable" @click="$router.go($router.currentRoute)">
+          <i class="fal fa-undo fa-4x fa-flip-vertical"></i>
+        </div>
+      </div>
     </div>
     <div class="handBackCard activable"
          @click="unselectCard"
@@ -59,6 +72,9 @@
   <div class="cemeteryToggle clickable" @click="toggleCemetery" v-b-tooltip="'Intervertir plateau/défausse'">
     <img v-if="activeBoard" src="https://png.icons8.com/ios/100/000000/cemetery.png">
     <img v-else src="https://png.icons8.com/wired/100/000000/timetable.png">
+  </div>
+  <div class="home clickable" @click="$router.push('/')">
+    <i class="fal fa-home fa-4x"></i>
   </div>
 </div>
 
@@ -80,6 +96,7 @@ export default {
 			hand: [ ],
 			board: [ ],
 			discarded: [ ],
+			loaded: false,
 			activeBoard: true,
 			selected: undefined
 		};
@@ -103,12 +120,17 @@ export default {
 		toggleCemetery () {
 			this.activeBoard = !this.activeBoard;
 		},
-		getCardImage (image) {
-			return (image !== undefined) ? image : 'https://via.placeholder.com/200x200';
+		getImage (typeId) {
+			let images = [
+				'https://cdn.discordapp.com/attachments/414476081274290188/446381870104444930/sword_bw.jpg',
+				'https://cdn.discordapp.com/attachments/414476081274290188/446381866044489738/globe_bw.jpg',
+				'https://cdn.discordapp.com/attachments/414476081274290188/446381864987394058/crown_bw.jpg'
+			];
+			return (typeId !== undefined) ? images[typeId] : 'https://via.placeholder.com/200x200';
 		},
-		getType (type) {
+		getType (typeId) {
 			let types = ['battle', 'society', 'royalty'];
-			return (type !== undefined) ? type : types[Math.floor(Math.random() * (3))];
+			return (typeId !== undefined) ? types[typeId] : types[Math.floor(Math.random() * (3))];
 		},
 		addCardInOrederedDeck (deck, card) {
 			if (deck.length === 0 || deck[deck.length - 1].year >= card.year) {
@@ -200,7 +222,7 @@ export default {
 		this.asyncLoad('https://pro.fontawesome.com/releases/v5.0.8/js/all.js');
 
 		// retrieve cards from db
-		this.deck.id = '5af9967af435bb627c612375';
+		this.deck.id = (this.$route.query.deck) ? this.$route.query.deck : '5af9967af435bb627c612375';
 		// this.deck.id = '5af5e5f4f435bb5d8d2bbdaf'; // Histoire de l'angleterre
 		// other.deck.id = "5af8aad2f435bb5d8d2bbe02" ;
 		// ApiLoader.get(`deck/${this.deck.id}?shuffle&cards_content`)
@@ -233,9 +255,12 @@ export default {
 					});
 					return;
 				}
+
 				for (let i = 0; i < 4; i++) {
 					this.draw();
 				}
+
+				this.loaded = true;
 			})
 			.catch(e => {
 				console.error(e);
@@ -293,7 +318,7 @@ body {
   border: 0;
   padding: 0;
   border-radius: 12px;
-  background-color: white;
+  background-color: #abb2c2;
 }
 
 @keyframes rainbow {
@@ -423,7 +448,7 @@ body {
 ██╔══╝  ██║     ██╔══██║╚════██║██╔══██║  ╚██╔╝      ██╔══██╗██║   ██║██╔══██╗██║  ██║██╔══╝  ██╔══██╗
 ██║     ███████╗██║  ██║███████║██║  ██║   ██║       ██████╔╝╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
 ╚═╝     ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝       ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
-*/
+
 #board button.society, #hand button.society {
   background-image: linear-gradient(to top left, #f9f047, #0fd850);
 }
@@ -508,5 +533,46 @@ body {
 	width: calc(100% - 0.5rem);
 	margin-bottom: 5px;
 	font-size: 1.3em;
+}
+.home {
+  color: white;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 100;
+}
+.hand-home, .hand-replay {
+  color: white;
+  font-size: 2em;
+  padding : 35px;
+}
+
+.loading{
+  transition:height .2s 1s, z-index .2s 1s, background 0.5s, opacity .5s;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #292C33;
+  z-index: 101;
+}
+
+.img-looping {
+  text-align: center;
+  position: relative;
+  top: 47%;
+  color: white;
+}
+
+.loading.loaded .img-looping {
+  opacity: 0;
+}
+
+.loaded {
+  z-index : 0;
+  background-color: transparent;
+  height: 0;
 }
 </style>
