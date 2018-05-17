@@ -3,7 +3,7 @@
 		<div class="container text-center" style="margin-top:40px;">
 			<h1>Hi !</h1>
 			<hr class="colorgraph">
-			<h2>Welcome to Lime Time Ⓒ, a game where you have to restore the time line of history</h2>
+			<h2>Welcome to Lime Time Ⓒ, a game where you have to restore the timeline of history</h2>
 			<h3
 				v-bind:class="{active:notclicked}"
 				class="activable">

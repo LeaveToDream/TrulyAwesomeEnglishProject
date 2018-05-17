@@ -27,7 +27,7 @@ Vue.component('tl-board-card', {
 							:class="type">
 				<b-card overlay
 								v-bind:title="name"
-								img-src="https://via.placeholder.com/200x200"
+								v-bind:img-src="image"
 								v-bind:img-alt="name"
 								img-top
 								tag="card"
@@ -63,7 +63,7 @@ Vue.component('tl-hand-card', {
 							@click="$emit('change-selected-card',id)">
 				<b-card overlay
 								v-bind:title="name"
-								img-src="https://via.placeholder.com/200x200"
+								v-bind:img-src="image"
 								v-bind:img-alt="name"
 								img-top
 								tag="card"

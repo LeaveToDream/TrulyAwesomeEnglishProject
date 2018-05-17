@@ -69,7 +69,7 @@
       </span>
     </div>
   </div>
-  <div class="cemeteryToggle clickable" @click="toggleCemetery" v-b-tooltip="'Intervertir plateau/défausse'">
+  <div class="cemeteryToggle clickable" @click="toggleCemetery" v-b-tooltip="'Switch between board and cemetery'">
     <img v-if="activeBoard" src="https://png.icons8.com/ios/100/000000/cemetery.png">
     <img v-else src="https://png.icons8.com/wired/100/000000/timetable.png">
   </div>
@@ -126,7 +126,7 @@ export default {
 				'https://cdn.discordapp.com/attachments/414476081274290188/446381866044489738/globe_bw.jpg',
 				'https://cdn.discordapp.com/attachments/414476081274290188/446381864987394058/crown_bw.jpg'
 			];
-			return (typeId !== undefined) ? images[typeId] : 'https://via.placeholder.com/200x200';
+			return (typeId !== undefined) ? images[typeId] : 'https://cdn.discordapp.com/attachments/414476081274290188/446381866044489738/globe_bw.jpg';
 		},
 		getType (typeId) {
 			let types = ['battle', 'society', 'royalty'];
@@ -319,6 +319,7 @@ body {
   padding: 0;
   border-radius: 12px;
   background-color: #abb2c2;
+  color: #dde1e8;
 }
 
 @keyframes rainbow {
