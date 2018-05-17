@@ -484,6 +484,7 @@ body {
   padding: 15px;
   bottom: 0;
   overflow-y: hidden;
+  min-width: 534px;
 }
 #hand button {
   margin: 0 1.5em;
@@ -544,7 +545,7 @@ body {
 .hand-home, .hand-replay {
   color: white;
   font-size: 2em;
-  padding : 35px;
+  padding : 35px 70px;
 }
 
 .loading{
